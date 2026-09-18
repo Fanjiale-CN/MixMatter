@@ -65,7 +65,7 @@ Do not include the retired `apps/mixmatter-chatgpt/` implementation as an active
 
 ## Portal actions
 
-- [ ] Build the final Plugin ZIP from the reviewed repository state using the `Build Mixmatter OpenAI Package` workflow.
+- [x] Build the final Plugin ZIP from the reviewed repository state using the `Build Mixmatter OpenAI Package` workflow.
 - [ ] Upload that exact ZIP to the OpenAI submission flow.
 - [ ] Confirm the portal parses root `plugin.json` successfully; root `extensions.com.openai.interface` is the authoritative OpenAI listing configuration.
 - [ ] Copy the finalized listing details and starter prompts.
@@ -75,4 +75,14 @@ Do not include the retired `apps/mixmatter-chatgpt/` implementation as an active
 
 ## Go / no-go status
 
-**Status: MIXMATTER 2.1 PACKAGE STRUCTURE READY; AUTOMATED ZIP BUILD + PORTAL UPLOAD PENDING.**
+**Status: MIXMATTER 2.1 ZIP BUILT AND VALIDATED; PORTAL UPLOAD PENDING.**
+
+
+## Latest validated build
+
+- Artifact: `mixmatter-openai-2.1.0.zip`
+- GitHub Actions run: `35335988945`
+- Source commit: `921d8f971df980a427d76c58e9d4b1e1febdd076`
+- SHA-256: `81e74a48eabe4d0ac4235e05c6e276a242e0493d22d720eaf052f489a848863a`
+- Package contents: root `plugin.json`, `skills/mixmatter/`, active Mixmatter icon assets, and `LICENSE`
+- Stale-brand scan: no `Press Print`, `Press-Print`, or `galok.me/press-print` references in the ZIP
