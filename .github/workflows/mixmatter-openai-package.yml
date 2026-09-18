@@ -31,7 +31,7 @@ jobs:
 
           manifest = json.loads(Path("plugin.json").read_text())
           assert manifest["$schema"] == "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
-          assert manifest["name"] == "mixmatter"
+          assert manifest["name"] == "press-print"
           assert manifest["version"] == "2.1.0"
           assert "repository" not in manifest
 
