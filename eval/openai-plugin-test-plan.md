@@ -1,10 +1,10 @@
-# Matter OpenAI Plugin Test Plan — 2.0
+# Mixmatter OpenAI Plugin Test Plan — 2.1
 
-This plan validates the UI-independent Skills-only Matter 2.0 package.
+This plan validates the UI-independent Skills-only Mixmatter 2.1 package.
 
 ## Goal
 
-Verify that Matter can be discovered and invoked with a supplied image, performs source-aware art direction and reconstruction, preserves semantic identity, keeps revision continuity, and follows the 2.0 research-derived decision system without relying on MCP widgets or a custom ChatGPT host UI.
+Verify that Mixmatter can be discovered and invoked with a supplied image, performs source-aware art direction and reconstruction, preserves semantic identity, keeps revision continuity, and follows the 2.1 research-derived decision system without relying on MCP widgets or a custom ChatGPT host UI.
 
 ## Marketplace setup
 
@@ -15,11 +15,11 @@ The repository exposes a development marketplace at:
 Example local setup:
 
 ```bash
-codex plugin marketplace add Fanjiale-CN/press-print --ref main
+codex plugin marketplace add Fanjiale-CN/mixmatter --ref main
 codex plugin marketplace list
 ```
 
-The marketplace should expose the `press-print` plugin.
+The marketplace should expose the `mixmatter` plugin.
 
 ## Test rules
 
@@ -31,7 +31,7 @@ Record:
 - whether semantic identity survived,
 - whether reconstruction was visibly compositional,
 - whether materiality was causally justified,
-- whether the result retained Matter identity.
+- whether the result retained Mixmatter identity.
 
 ## Positive tests
 
@@ -39,12 +39,12 @@ Record:
 
 Input:
 
-`@Matter Process this image.`
+`@Mixmatter Process this image.`
 
 Attach a source image.
 
 Expected:
-- Matter activates;
+- Mixmatter activates;
 - the source is visually read before treatment;
 - the system chooses a source-specific direction autonomously unless real ambiguity exists;
 - no custom menu or widget is required;
@@ -55,7 +55,7 @@ Expected:
 
 Input:
 
-`@Matter 处理这张图片，不要新增文字。`
+`@Mixmatter 处理这张图片，不要新增文字。`
 
 Attach a source image.
 
@@ -79,7 +79,7 @@ Expected:
 
 Input:
 
-`@Matter Process this image.`
+`@Mixmatter Process this image.`
 
 Do not attach or otherwise provide an image.
 
@@ -113,7 +113,7 @@ Expected:
 
 Input:
 
-`用 Matter 重构这张招牌很多的街景。保留场景身份，不要新增、翻译或双语复制文字。`
+`用 Mixmatter 重构这张招牌很多的街景。保留场景身份，不要新增、翻译或双语复制文字。`
 
 Expected:
 - preserve only identity-bearing source text clearly when feasible;
@@ -125,7 +125,7 @@ Expected:
 
 Input:
 
-`Reconstruct this with Matter and add only the exact text “地铁”.`
+`Reconstruct this with Mixmatter and add only the exact text “地铁”.`
 
 Expected:
 - may add `地铁`;
@@ -139,7 +139,7 @@ Input:
 
 `Restore this old photograph naturally and faithfully.`
 
-Expected: Matter should not be selected automatically for ordinary faithful restoration.
+Expected: Mixmatter should not be selected automatically for ordinary faithful restoration.
 
 ### N2 — Watercolor conversion
 
@@ -147,7 +147,7 @@ Input:
 
 `Turn this image into a watercolor painting.`
 
-Expected: Matter should not be selected automatically.
+Expected: Mixmatter should not be selected automatically.
 
 ### N3 — From-scratch typography-heavy layout
 
@@ -155,14 +155,14 @@ Input:
 
 `Design a typography-heavy exhibition poster from scratch with headline, date, and body copy.`
 
-Expected: Matter should not be selected automatically because its core identity is source-image art direction and reconstruction rather than general-purpose typesetting.
+Expected: Mixmatter should not be selected automatically because its core identity is source-image art direction and reconstruction rather than general-purpose typesetting.
 
 ## Visual quality checks
 
 For successful transformations, evaluate against both:
 
 - `eval/quality-rubric.md`
-- `docs/system/PP_REGRESSION_BENCHMARK.md`
+- `docs/system/MIXMATTER_REGRESSION_BENCHMARK.md`
 
 Check specifically that:
 
@@ -182,9 +182,9 @@ Check specifically that:
 
 ## Host-capability distinction
 
-If the Skill activates correctly but the current host surface does not provide image understanding or image generation/editing to the installed Plugin, record that as a host-capability limitation rather than a Matter reconstruction failure.
+If the Skill activates correctly but the current host surface does not provide image understanding or image generation/editing to the installed Plugin, record that as a host-capability limitation rather than a Mixmatter reconstruction failure.
 
-If image generation/editing is available but Matter stops at describing a prompt instead of performing the requested supported transformation, record that as a Skill behavior failure.
+If image generation/editing is available but Mixmatter stops at describing a prompt instead of performing the requested supported transformation, record that as a Skill behavior failure.
 
 ## Result record
 
@@ -197,7 +197,7 @@ For each case, record:
 - plugin activation: yes/no
 - image tool execution: yes/no/not available
 - semantic preservation score
-- Matter identity score
+- Mixmatter identity score
 - reconstruction strength score
 - observed failure taxonomy tags
 - notes

@@ -1,10 +1,11 @@
-name: Matter Research CI
+name: Mixmatter Research CI
 
 on:
   pull_request:
     paths:
       - "docs/**"
       - "skills/press-print/**"
+      - "skills/mixmatter/**"
       - ".github/workflows/press-print-2-ci.yml"
   push:
     branches:
@@ -12,6 +13,7 @@ on:
     paths:
       - "docs/**"
       - "skills/press-print/**"
+      - "skills/mixmatter/**"
       - ".github/workflows/press-print-2-ci.yml"
 
 permissions:
@@ -24,16 +26,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validate research-only state
+      - name: Validate Mixmatter research state
         shell: bash
         run: |
-          test -f docs/PRESS_PRINT_2_RUNTIME.md
-          test -f docs/system/PP_ART_DIRECTION_POLICY.md
-          test -f docs/system/PP_CORE_CONSTITUTION.md
-          test -f docs/system/PP_REGRESSION_BENCHMARK.md
-          test -f docs/system/PP_SYSTEM_SCHEMA.yaml
-          test -f docs/system/PP_TOOL_SPEC.md
-          test -f docs/system/PP_VISUAL_GRAMMAR.md
-          test ! -d apps/press-print-chatgpt
-          test ! -f docs/PRESS_PRINT_HOST_UI_V1.md
-          test ! -f docs/PRESS_PRINT_HOST_UI_VISUAL_V1.md
+          test -f docs/MIXMATTER_2_RUNTIME.md
+          test -f docs/system/MIXMATTER_ART_DIRECTION_POLICY.md
+          test -f docs/system/MIXMATTER_CORE_CONSTITUTION.md
+          test -f docs/system/MIXMATTER_REGRESSION_BENCHMARK.md
+          test -f docs/system/MIXMATTER_SYSTEM_SCHEMA.yaml
+          test -f docs/system/MIXMATTER_TOOL_SPEC.md
+          test -f docs/system/MIXMATTER_VISUAL_GRAMMAR.md
+          test -f skills/mixmatter/SKILL.md
+          test -f plugin.json
+          test -f .codex-plugin/plugin.json
+          test -f assets/mixmatter-icon-light.svg
+          test -f assets/mixmatter-icon-dark.svg
+          test ! -d apps/mixmatter-chatgpt

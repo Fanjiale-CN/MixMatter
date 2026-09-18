@@ -1,8 +1,8 @@
-# Matter 2.0 Runtime
+# Mixmatter 2.0 Runtime
 
 ## Goal
 
-Matter 2.0 upgrades the existing source-aware reconstruction skill into a stronger AI art-direction workflow **without replacing its original visual identity**.
+Mixmatter 2.0 upgrades the existing source-aware reconstruction skill into a stronger AI art-direction workflow **without replacing its original visual identity**.
 
 The product promise remains simple:
 
@@ -14,7 +14,7 @@ Complexity stays behind the interaction.
 
 ### 1. Vague request
 
-Example: `@Matter process this.`
+Example: `@Mixmatter process this.`
 
 The model silently reads the source, identifies semantic and visual anchors, determines preservation constraints, stabilizes hierarchy when the source is diffuse / repetitive / sparse / ambiguous, forms the strongest source-specific direction, and executes.
 
@@ -24,7 +24,7 @@ If the image has multiple equally plausible readings whose choice would material
 
 Example: `Make it flatter and more fragmented. Keep the face unchanged. No typography.`
 
-Execute directly using the existing Matter image language and the explicit locks.
+Execute directly using the existing Mixmatter image language and the explicit locks.
 
 ### 3. Revision request
 
@@ -65,7 +65,7 @@ When a substantial low-information field shapes the composition:
 
 No universal blank-area percentage or object-count threshold should trigger these behaviors. The question is whether the source hierarchy can carry the intended reconstruction.
 
-The runtime implementation is detailed in `skills/press-print/references/hierarchy-stabilization.md`.
+The runtime implementation is detailed in `skills/mixmatter/references/hierarchy-stabilization.md`.
 
 ## Preservation contract
 
@@ -96,7 +96,7 @@ Good: `Preserve the cyclist and billboard relation, suppress edge clutter, flatt
 
 ## Natural-language control model
 
-Direction, Structure, and Intensity remain useful abstractions inside Matter 2.0.
+Direction, Structure, and Intensity remain useful abstractions inside Mixmatter 2.0.
 
 - **Direction** identifies the dominant reconstruction thesis.
 - **Structure** describes how much original compositional continuity may be spent.
@@ -114,7 +114,7 @@ Owns:
 - semantic preservation judgment,
 - hierarchy stabilization,
 - direction formation,
-- Matter prompt and reconstruction behavior,
+- Mixmatter prompt and reconstruction behavior,
 - image generation or editing when the host supports it,
 - critique and revision reasoning.
 
@@ -133,7 +133,7 @@ They should be added only when they provide real computation rather than pretend
 
 ## Product boundary
 
-Matter 2.0 is not becoming a general design suite. Generic background removal, upscaling, resize, broad text-to-image generation, and a Photoshop-like canvas are not its core identity.
+Mixmatter 2.0 is not becoming a general design suite. Generic background removal, upscaling, resize, broad text-to-image generation, and a Photoshop-like canvas are not its core identity.
 
 The core remains:
 

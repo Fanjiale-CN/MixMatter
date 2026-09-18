@@ -1,17 +1,17 @@
-# Matter
+# Mixmatter
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/matter-icon-dark.svg">
-    <img src="./assets/matter-icon-light.svg" alt="Matter app icon" width="184">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/mixmatter-icon-dark.svg">
+    <img src="./assets/mixmatter-icon-light.svg" alt="Mixmatter app icon" width="184">
   </picture>
 </p>
 
 **AI art direction and source-aware visual reconstruction for existing imagery.**
 
-Matter treats photographs as visual matter: something to read, protect, cut, flatten, layer, and rebuild with intent.
+Mixmatter treats photographs as visual matter: something to read, protect, cut, flatten, layer, and rebuild with intent.
 
-Matter is an open-source **Agent Skill / SKILL.md** that reads a source image, decides what must survive, forms a source-specific art-direction thesis, and reconstructs the image into a contemporary print-driven composition.
+Mixmatter is an open-source **Agent Skill / SKILL.md** that reads a source image, decides what must survive, forms a source-specific art-direction thesis, and reconstructs the image into a contemporary print-driven composition.
 
 > **Photography is source material, not sacred material.**
 >
@@ -19,22 +19,22 @@ Matter is an open-source **Agent Skill / SKILL.md** that reads a source image, d
 >
 > **Preserve semantic identity, not visual completeness.**
 
-Matter 2.1 keeps the visual DNA established in v1 while adding stronger source understanding, preservation logic, art-direction judgment, critique, and revision continuity. It remains a **Skills-only** system. There is no required MCP server or custom ChatGPT host UI.
+Mixmatter 2.1 keeps the visual DNA established in v1 while adding stronger source understanding, preservation logic, art-direction judgment, critique, and revision continuity. It remains a **Skills-only** system. There is no required MCP server or custom ChatGPT host UI.
 
 ## Install
 
 ```bash
 npx skills add Fanjiale-CN/press-print --list
-npx skills add Fanjiale-CN/press-print --skill press-print
+npx skills add Fanjiale-CN/press-print --skill mixmatter
 ```
 
 Repository: `Fanjiale-CN/press-print`  
-Skill: `press-print`  
+Skill: `mixmatter`  
 Entry point: `SKILL.md`
 
-> **Compatibility:** the repository, package, and Skill identifiers remain `press-print` so existing installs and links keep working. The public product name is **Matter**.
+> **Identity:** the OpenAI package and Skill slug are `mixmatter`. The current GitHub repository URL remains `Fanjiale-CN/press-print` until the repository slug itself is renamed.
 
-## How Matter 2.1 works
+## How Mixmatter 2.1 works
 
 The internal reasoning sequence is:
 
@@ -89,7 +89,7 @@ Preserve successful decisions and fix the cause of a failure rather than re-rand
 
 ## Natural-language controls
 
-Matter retains three useful semantic controls without requiring a custom UI:
+Mixmatter retains three useful semantic controls without requiring a custom UI:
 
 - **Direction**: the dominant reconstruction thesis
 - **Structure**: how much original compositional continuity may be spent
@@ -99,7 +99,7 @@ Users may state these explicitly or simply describe what they want in normal lan
 
 ## Core visual identity
 
-Matter generally prefers:
+Mixmatter generally prefers:
 
 - flat, surface-first composition
 - compressed or interrupted depth
@@ -127,11 +127,11 @@ It avoids:
 
 ## Source text policy
 
-Matter adds **zero new text by default**.
+Mixmatter adds **zero new text by default**.
 
 If source text already exists, it may be preserved, cropped, obscured, fragmented, reduced, or treated as source imagery. Identity-critical wording should be preserved faithfully when feasible.
 
-Matter must not:
+Mixmatter must not:
 
 - invent approximate replacement wording
 - translate source text by default
@@ -143,15 +143,15 @@ If the user supplies exact wording, use only that wording unless they explicitly
 
 ## Research-derived system
 
-Matter 2.1 is grounded in seven canonical system documents:
+Mixmatter 2.1 is grounded in seven canonical system documents:
 
-1. [`docs/PRESS_PRINT_2_RUNTIME.md`](docs/PRESS_PRINT_2_RUNTIME.md)
-2. [`docs/system/PP_ART_DIRECTION_POLICY.md`](docs/system/PP_ART_DIRECTION_POLICY.md)
-3. [`docs/system/PP_CORE_CONSTITUTION.md`](docs/system/PP_CORE_CONSTITUTION.md)
-4. [`docs/system/PP_REGRESSION_BENCHMARK.md`](docs/system/PP_REGRESSION_BENCHMARK.md)
-5. [`docs/system/PP_SYSTEM_SCHEMA.yaml`](docs/system/PP_SYSTEM_SCHEMA.yaml)
-6. [`docs/system/PP_TOOL_SPEC.md`](docs/system/PP_TOOL_SPEC.md)
-7. [`docs/system/PP_VISUAL_GRAMMAR.md`](docs/system/PP_VISUAL_GRAMMAR.md)
+1. [`docs/MIXMATTER_2_RUNTIME.md`](docs/MIXMATTER_2_RUNTIME.md)
+2. [`docs/system/MIXMATTER_ART_DIRECTION_POLICY.md`](docs/system/MIXMATTER_ART_DIRECTION_POLICY.md)
+3. [`docs/system/MIXMATTER_CORE_CONSTITUTION.md`](docs/system/MIXMATTER_CORE_CONSTITUTION.md)
+4. [`docs/system/MIXMATTER_REGRESSION_BENCHMARK.md`](docs/system/MIXMATTER_REGRESSION_BENCHMARK.md)
+5. [`docs/system/MIXMATTER_SYSTEM_SCHEMA.yaml`](docs/system/MIXMATTER_SYSTEM_SCHEMA.yaml)
+6. [`docs/system/MIXMATTER_TOOL_SPEC.md`](docs/system/MIXMATTER_TOOL_SPEC.md)
+7. [`docs/system/MIXMATTER_VISUAL_GRAMMAR.md`](docs/system/MIXMATTER_VISUAL_GRAMMAR.md)
 
 These preserve the research layer independently of any particular interface implementation.
 
@@ -159,8 +159,8 @@ These preserve the research layer independently of any particular interface impl
 
 The established v1 rendering language remains available at:
 
-- [`prompt/press-print-v1.md`](prompt/press-print-v1.md)
-- [`skills/press-print/references/press-print-v1.md`](skills/press-print/references/press-print-v1.md)
+- [`prompt/mixmatter-v1.md`](prompt/mixmatter-v1.md)
+- [`skills/mixmatter/references/mixmatter-v1.md`](skills/mixmatter/references/mixmatter-v1.md)
 
 The 2.0 reasoning layer extends that visual language rather than replacing it.
 
@@ -173,31 +173,31 @@ The repository retains the ten canonical high-resolution v1 source/result showca
 Use:
 
 - [`eval/quality-rubric.md`](eval/quality-rubric.md)
-- [`docs/system/PP_REGRESSION_BENCHMARK.md`](docs/system/PP_REGRESSION_BENCHMARK.md)
+- [`docs/system/MIXMATTER_REGRESSION_BENCHMARK.md`](docs/system/MIXMATTER_REGRESSION_BENCHMARK.md)
 
-The 2.0 benchmark evaluates semantic preservation, Matter identity, reconstruction strength, editorial hierarchy, planar coherence, material coherence, source specificity, and common drift penalties.
+The 2.0 benchmark evaluates semantic preservation, Mixmatter identity, reconstruction strength, editorial hierarchy, planar coherence, material coherence, source specificity, and common drift penalties.
 
 ## Repository structure
 
 ```text
-press-print/
+mixmatter/
 ├── SKILL.md
-├── skills/press-print/
+├── skills/mixmatter/
 │   ├── SKILL.md
 │   └── references/
-│       ├── press-print-v1.md
-│       ├── press-print-v2-runtime.md
+│       ├── mixmatter-v1.md
+│       ├── mixmatter-v2-runtime.md
 │       └── quality-rubric.md
 ├── docs/
-│   ├── PRESS_PRINT_2_RUNTIME.md
+│   ├── MIXMATTER_2_RUNTIME.md
 │   └── system/
-│       ├── PP_ART_DIRECTION_POLICY.md
-│       ├── PP_CORE_CONSTITUTION.md
-│       ├── PP_REGRESSION_BENCHMARK.md
-│       ├── PP_SYSTEM_SCHEMA.yaml
-│       ├── PP_TOOL_SPEC.md
-│       └── PP_VISUAL_GRAMMAR.md
-├── prompt/press-print-v1.md
+│       ├── MIXMATTER_ART_DIRECTION_POLICY.md
+│       ├── MIXMATTER_CORE_CONSTITUTION.md
+│       ├── MIXMATTER_REGRESSION_BENCHMARK.md
+│       ├── MIXMATTER_SYSTEM_SCHEMA.yaml
+│       ├── MIXMATTER_TOOL_SPEC.md
+│       └── MIXMATTER_VISUAL_GRAMMAR.md
+├── prompt/mixmatter-v1.md
 ├── eval/
 └── examples/
 ```
@@ -214,6 +214,6 @@ Created by **Fan Jiale / Galok**.
 
 ## License
 
-MIT for the Matter skill text, prompt system, documentation, and related project materials. See `LICENSE`.
+MIT for the Mixmatter skill text, prompt system, documentation, and related project materials. See `LICENSE`.
 
 Showcase image rights may depend on their original provenance. See [`examples/README.md`](examples/README.md).

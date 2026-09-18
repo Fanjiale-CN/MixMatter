@@ -1,7 +1,7 @@
 ---
-name: press-print
+name: mixmatter
 description: >-
-  Matter 2.1 art-directs and reconstructs user-supplied imagery while preserving the established Matter
+  Mixmatter 2.1 art-directs and reconstructs user-supplied imagery while preserving the established Mixmatter
   visual DNA. It reads semantic identity and visual structure before transformation, forms a source-specific direction,
   reconstructs through flattened editorial composition, source-aware cropping, selective halftone/duotone, graphic
   fields, controlled tactile collage, and strict source-text protection, then preserves successful decisions across
@@ -9,20 +9,20 @@ description: >-
   generated typography. v2.1.0.
 ---
 
-# Matter 2.1
+# Mixmatter 2.1
 
-The canonical skill implementation lives at `skills/press-print/SKILL.md`.
+The canonical skill implementation lives at `skills/mixmatter/SKILL.md`.
 
-When this repository-level skill entry is loaded, **read and follow `skills/press-print/SKILL.md` as the authoritative instructions before performing a Matter transformation**.
+When this repository-level skill entry is loaded, **read and follow `skills/mixmatter/SKILL.md` as the authoritative instructions before performing a Mixmatter transformation**.
 
 Also use these canonical references when relevant:
 
-- `skills/press-print/references/press-print-v2-runtime.md` — art-direction, preservation, hierarchy, and revision behavior.
-- `skills/press-print/references/press-print-v1.md` — established Matter visual reconstruction language. V2 must not replace or dilute it.
-- `skills/press-print/references/quality-rubric.md` — evaluation and regression guidance.
-- `skills/press-print/references/hierarchy-stabilization.md` — hierarchy formation for repetitive, sparse, diffuse, or ambiguous sources.
-- `docs/system/PP_CORE_CONSTITUTION.md` — non-negotiable product identity.
-- `docs/system/PP_VISUAL_GRAMMAR.md` — research-derived visual grammar.
+- `skills/mixmatter/references/mixmatter-v2-runtime.md` — art-direction, preservation, hierarchy, and revision behavior.
+- `skills/mixmatter/references/mixmatter-v1.md` — established Mixmatter visual reconstruction language. V2 must not replace or dilute it.
+- `skills/mixmatter/references/quality-rubric.md` — evaluation and regression guidance.
+- `skills/mixmatter/references/hierarchy-stabilization.md` — hierarchy formation for repetitive, sparse, diffuse, or ambiguous sources.
+- `docs/system/MIXMATTER_CORE_CONSTITUTION.md` — non-negotiable product identity.
+- `docs/system/MIXMATTER_VISUAL_GRAMMAR.md` — research-derived visual grammar.
 
 ## Non-negotiable identity
 
@@ -34,11 +34,11 @@ Also use these canonical references when relevant:
 
 > Every visible intervention requires a structural or semantic cause.
 
-> Expand Matter's intelligence, not its aesthetic identity.
+> Expand Mixmatter's intelligence, not its aesthetic identity.
 
 ## Interaction summary
 
-Matter should feel simple in conversation.
+Mixmatter should feel simple in conversation.
 
 - **Clear request:** execute directly.
 - **Vague request:** inspect the actual image, choose the strongest source-specific direction, and execute unless a real ambiguity would materially change the result.
@@ -57,7 +57,7 @@ Repeated fields should gain unequal visual roles without losing group identity. 
 
 ## Visual continuity
 
-The established Matter system remains the visual authority:
+The established Mixmatter system remains the visual authority:
 
 - strongly flattened, surface-first editorial composition,
 - source-derived crop and scale shifts,
@@ -69,7 +69,7 @@ The established Matter system remains the visual authority:
 - active low-information fields,
 - contemporary print energy rather than generic retro styling.
 
-Do not turn Matter into a generic photo editor, style marketplace, cinematic image model, or parameter-heavy design suite.
+Do not turn Mixmatter into a generic photo editor, style marketplace, cinematic image model, or parameter-heavy design suite.
 
 ## Text continuity
 
@@ -82,4 +82,4 @@ Default behavior remains conservative:
 - never create bilingual duplicates by default,
 - if exact source text cannot be preserved reliably, obscure/crop it rather than hallucinate it.
 
-For the full system, always defer to `skills/press-print/SKILL.md` and its references.
+For the full system, always defer to `skills/mixmatter/SKILL.md` and its references.
