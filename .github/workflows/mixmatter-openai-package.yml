@@ -1,4 +1,4 @@
-name: Build Mixmatter OpenAI Package
+name: Build MixMatter OpenAI Package
 
 on:
   workflow_dispatch:
@@ -22,7 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validate portable Mixmatter package
+      - name: Validate portable MixMatter package
         shell: bash
         run: |
           python - <<'PY'
@@ -31,12 +31,12 @@ jobs:
 
           manifest = json.loads(Path("plugin.json").read_text())
           assert manifest["$schema"] == "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
-          assert manifest["name"] == "press-print"
+          assert manifest["name"] == "mixmatter"
           assert manifest["version"] == "2.1.0"
           assert "repository" not in manifest
 
           interface = manifest["extensions"]["com.openai"]["interface"]
-          assert interface["displayName"] == "Mixmatter"
+          assert interface["displayName"] == "MixMatter"
           assert interface["category"] == "Creativity"
           assert interface["websiteURL"] == "https://www.galok.me/mixmatter/"
           assert interface["privacyPolicyURL"] == "https://www.galok.me/mixmatter/privacy/"
@@ -75,7 +75,7 @@ jobs:
           cp assets/mixmatter-icon-light.svg dist/assets/
           cp assets/mixmatter-icon-dark.svg dist/assets/
 
-      - name: Upload Mixmatter OpenAI ZIP
+      - name: Upload MixMatter OpenAI ZIP
         uses: actions/upload-artifact@v4
         with:
           name: mixmatter-openai-2.1.0
