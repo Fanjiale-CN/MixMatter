@@ -1,12 +1,12 @@
-# Final Submission Readiness Checklist — Mixmatter 2.1
+# Final Submission Readiness Checklist — MixMatter 2.1
 
-This checklist covers the UI-independent Skills-only Mixmatter 2.1 package.
+This checklist covers the UI-independent Skills-only MixMatter 2.1 package.
 
 ## Repository readiness
 
-- [x] Public product name is `Mixmatter`; existing plugin technical name remains `press-print`.
+- [x] New plugin public name is `MixMatter`; technical package name is `mixmatter`.
 - [x] Package version is `2.1.0`.
-- [x] Portable manifest is present at root `plugin.json`; its technical `name` is `press-print` to match the existing OpenAI plugin, while `extensions.com.openai.interface.displayName` is `Mixmatter`. `.codex-plugin/plugin.json` remains a repository compatibility fallback.
+- [x] Portable manifest is present at root `plugin.json`; technical `name` is `mixmatter`, and `extensions.com.openai.interface.displayName` is `MixMatter`. The submission ZIP omits `.codex-plugin/plugin.json` because the OpenAI portal normalizes and adds it during conversion.
 - [x] Packaged Skill is present at `skills/mixmatter/`.
 - [x] Packaged references include `mixmatter-v1.md`, `mixmatter-v2-runtime.md`, and `quality-rubric.md`.
 - [x] The seven canonical research/system outputs are retained.
@@ -16,8 +16,8 @@ This checklist covers the UI-independent Skills-only Mixmatter 2.1 package.
 - [x] Direction / Structure / Intensity remain available as natural-language product semantics.
 - [x] Revision continuity remains part of the 2.1 behavior.
 - [x] Source-text protection remains strict.
-- [x] Light and dark Mixmatter icon assets are present.
-- [x] Privacy and Terms describe a Skills-only architecture with no separate Mixmatter MCP service.
+- [x] Light and dark MixMatter icon assets are present.
+- [x] Privacy and Terms describe a Skills-only architecture with no separate MixMatter MCP service.
 
 ## Behavior checks
 
@@ -65,9 +65,9 @@ Do not include the retired `apps/mixmatter-chatgpt/` implementation as an active
 
 ## Portal actions
 
-- [x] Build the final Plugin ZIP from the reviewed repository state using the `Build Mixmatter OpenAI Package` workflow.
+- [x] Build the final Plugin ZIP from the reviewed repository state using the `Build MixMatter OpenAI Package` workflow.
 - [ ] Upload that exact ZIP to the OpenAI submission flow.
-- [ ] Confirm the portal accepts root `plugin.json` with technical name `press-print`, converts it to normalized Codex format, and preserves `Mixmatter` as the display name.
+- [ ] Confirm the portal creates a new plugin from root `plugin.json` with technical name `mixmatter`, converts it to normalized Codex format, and preserves `MixMatter` as the display name.
 - [ ] Copy the finalized listing details and starter prompts.
 - [ ] Add the positive and negative tests from `test-cases.md`.
 - [ ] Confirm country / region availability at submission time.
@@ -75,7 +75,7 @@ Do not include the retired `apps/mixmatter-chatgpt/` implementation as an active
 
 ## Go / no-go status
 
-**Status: MIXMATTER 2.1 ZIP BUILT AND VALIDATED; PORTAL UPLOAD PENDING.**
+**Status: MIXMATTER 2.1 NEW-PLUGIN PACKAGE READY; REBUILD + PORTAL UPLOAD PENDING.**
 
 
 ## Latest validated build
@@ -84,5 +84,5 @@ Do not include the retired `apps/mixmatter-chatgpt/` implementation as an active
 - GitHub Actions run: `35335988945`
 - Source commit: `921d8f971df980a427d76c58e9d4b1e1febdd076`
 - SHA-256: `81e74a48eabe4d0ac4235e05c6e276a242e0493d22d720eaf052f489a848863a`
-- Package contents: root `plugin.json`, `skills/mixmatter/`, active Mixmatter icon assets, and `LICENSE`
+- Package contents: root `plugin.json`, `skills/mixmatter/`, active MixMatter icon assets, and `LICENSE`
 - Stale-brand scan: no `Press Print`, `Press-Print`, or `galok.me/press-print` references in the ZIP
