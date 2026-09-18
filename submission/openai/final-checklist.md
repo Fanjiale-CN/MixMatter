@@ -39,9 +39,6 @@ The final ZIP should preserve this relevant structure:
 
 ```text
 plugin.json
-.codex-plugin/
-└── plugin.json
-
 skills/
 └── mixmatter/
     ├── SKILL.md
@@ -68,7 +65,7 @@ Do not include the retired `apps/mixmatter-chatgpt/` implementation as an active
 
 ## Portal actions
 
-- [x] Build the final Plugin ZIP from the reviewed repository state.
+- [ ] Build the final Plugin ZIP from the reviewed repository state using the `Build Mixmatter OpenAI Package` workflow.
 - [ ] Upload that exact ZIP to the OpenAI submission flow.
 - [ ] Confirm the portal parses root `plugin.json` successfully; root `extensions.com.openai.interface` is the authoritative OpenAI listing configuration.
 - [ ] Copy the finalized listing details and starter prompts.
@@ -78,4 +75,4 @@ Do not include the retired `apps/mixmatter-chatgpt/` implementation as an active
 
 ## Go / no-go status
 
-**Status: MIXMATTER 2.1 PACKAGE STRUCTURE READY; FINAL ZIP VALIDATION + PORTAL UPLOAD PENDING.**
+**Status: MIXMATTER 2.1 PACKAGE STRUCTURE READY; AUTOMATED ZIP BUILD + PORTAL UPLOAD PENDING.**
