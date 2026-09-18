@@ -1,6 +1,6 @@
-# Matter Support
+# Mixmatter Support
 
-Matter is published and maintained by **Fan Jiale**, an individual developer, under the **Galok** brand.
+Mixmatter is published and maintained by **Fan Jiale**, an individual developer, under the **Galok** brand.
 
 ## Best support channel
 
@@ -21,7 +21,7 @@ For a matter that should not be posted publicly, email:
 Where practical, include:
 
 - host product and surface, such as ChatGPT or Codex
-- Matter version
+- Mixmatter version
 - the trigger phrase used
 - whether a source image was supplied
 - expected behavior
@@ -30,6 +30,6 @@ Where practical, include:
 
 ## Scope of support
 
-Support covers the Matter Skills-only Plugin / Agent Skill, its packaging, public documentation, and reproducible behavior within supported host environments. Account, billing, model availability, or platform outages controlled by a host provider should be handled through that provider's support channels.
+Support covers the Mixmatter Skills-only Plugin / Agent Skill, its packaging, public documentation, and reproducible behavior within supported host environments. Account, billing, model availability, or platform outages controlled by a host provider should be handled through that provider's support channels.
 
-Public support URL: https://www.galok.me/press-print/support/
+Public support URL: https://www.galok.me/mixmatter/support/

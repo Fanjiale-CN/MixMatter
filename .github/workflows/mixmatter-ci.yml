@@ -1,0 +1,39 @@
+name: Mixmatter Research CI
+
+on:
+  pull_request:
+    paths:
+      - "docs/**"
+      - "skills/mixmatter/**"
+      - ".github/workflows/mixmatter-2-ci.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "docs/**"
+      - "skills/mixmatter/**"
+      - ".github/workflows/mixmatter-2-ci.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-mcp-app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate research-only state
+        shell: bash
+        run: |
+          test -f docs/MIXMIXMATTER_2_RUNTIME.md
+          test -f docs/system/MIXMIXMATTER_ART_DIRECTION_POLICY.md
+          test -f docs/system/MIXMIXMATTER_CORE_CONSTITUTION.md
+          test -f docs/system/MIXMIXMATTER_REGRESSION_BENCHMARK.md
+          test -f docs/system/MIXMIXMATTER_SYSTEM_SCHEMA.yaml
+          test -f docs/system/MIXMIXMATTER_TOOL_SPEC.md
+          test -f docs/system/MIXMIXMATTER_VISUAL_GRAMMAR.md
+          test ! -d apps/mixmatter-chatgpt
+          test ! -f docs/MIXMIXMATTER_HOST_UI_V1.md
+          test ! -f docs/MIXMIXMATTER_HOST_UI_VISUAL_V1.md

@@ -2,9 +2,9 @@
 
 ## Release notes
 
-### Matter 2.0.0 — Research-integrated art direction, no custom host UI
+### Mixmatter 2.0.0 — Research-integrated art direction, no custom host UI
 
-Matter 2.0 upgrades the project from a strong source-aware reconstruction prompt into a research-backed AI art-direction system for existing imagery.
+Mixmatter 2.0 upgrades the project from a strong source-aware reconstruction prompt into a research-backed AI art-direction system for existing imagery.
 
 The release adds:
 
@@ -14,26 +14,26 @@ The release adds:
 - autonomous art-direction judgment for vague requests;
 - revision continuity that preserves successful decisions;
 - distinction between revising an existing result and trying an alternative from the original source;
-- a regression benchmark for protecting both quality and Matter identity;
+- a regression benchmark for protecting both quality and Mixmatter identity;
 - stronger anti-drift rules against generic AI polish, cinematic realism, decorative texture, arbitrary fragmentation, and cultural-costume styling.
 
-The established Matter v1 visual language remains authoritative. Version 2.0 extends the intelligence around that language rather than replacing it.
+The established Mixmatter v1 visual language remains authoritative. Version 2.0 extends the intelligence around that language rather than replacing it.
 
-The architecture is deliberately **Skills-only and UI-independent**. Matter 2.0 does not require an MCP server, custom ChatGPT widget, external account, authentication flow, or separate image-generation backend. The host platform performs image understanding and generation/editing when supported.
+The architecture is deliberately **Skills-only and UI-independent**. Mixmatter 2.0 does not require an MCP server, custom ChatGPT widget, external account, authentication flow, or separate image-generation backend. The host platform performs image understanding and generation/editing when supported.
 
 Source-text control remains strict: zero new text by default, no automatic translation, no bilingual duplication, and no approximate hallucinated replacement of uncertain source text.
 
-### Matter 1.0.2 — Planar reconstruction and source-text control
+### Mixmatter 1.0.2 — Planar reconstruction and source-text control
 
 Version 1.0.2 strengthened flat 2D composition, interlocking planes, structural halftone, tactile collage, and source-text handling. It remains the visual baseline that 2.0 builds upon.
 
-### Matter 1.0.0 — Initial public release
+### Mixmatter 1.0.0 — Initial public release
 
 The initial Skills-only release established source-aware reconstruction, structural-anchor preservation, selective photographic / printed / graphic / collaged states, and the first quality rubric.
 
 ## Reviewer setup
 
-Attach any non-sensitive source image the reviewer has permission to use. No demo credentials, MFA, SMS, email confirmation, private-network access, test account, or Matter API key are required.
+Attach any non-sensitive source image the reviewer has permission to use. No demo credentials, MFA, SMS, email confirmation, private-network access, test account, or Mixmatter API key are required.
 
 ## Availability recommendation
 
@@ -41,7 +41,7 @@ Attach any non-sensitive source image the reviewer has permission to use. No dem
 
 Rationale:
 
-- Matter has no region-specific backend or infrastructure;
+- Mixmatter has no region-specific backend or infrastructure;
 - it does not require a regional account system, payment provider, or external data service;
 - public support, privacy, terms, and product pages are provided under `galok.me`.
 

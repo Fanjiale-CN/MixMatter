@@ -4,8 +4,8 @@
 
 ### Changed
 
-- rebranded the public product from **Press Print / Press-Print** to **Matter**
-- retained the technical repository, package, Skill, and web slugs as `press-print` for compatibility
+- rebranded the public product from **Mixmatter / Mixmatter** to **Mixmatter**
+- retained the technical repository, package, Skill, and web slugs as `mixmatter` for compatibility
 - replaced the previous offset-sheet badge with a layered material icon built from source, photographic, halftone, tape, and marker elements
 - added coordinated light and dark icon variants with identical geometry and corrected depth ordering
 - shifted the active identity to a cool blue / cyan / lavender material palette
@@ -13,8 +13,8 @@
 
 ### Added
 
-- `assets/matter-icon-light.svg`
-- `assets/matter-icon-dark.svg`
+- `assets/mixmatter-icon-light.svg`
+- `assets/mixmatter-icon-dark.svg`
 
 ## 2.0.0 — 2026-09-11
 
@@ -31,7 +31,7 @@
 
 ### Changed
 
-- upgraded Press Print from a reconstruction prompt system into a research-backed AI art-direction and visual-reconstruction system
+- upgraded Mixmatter from a reconstruction prompt system into a research-backed AI art-direction and visual-reconstruction system
 - vague requests now default to autonomous source-specific judgment; clarification or alternatives are reserved for genuine ambiguity
 - revisions preserve successful crop, hierarchy, locks, identity, and material decisions instead of behaving like random rerolls
 - alternative directions return to the original source image unless the user explicitly asks to build on a prior result
@@ -39,14 +39,14 @@
 - strengthened the default requirement for visibly reconstructed composition so restraint does not collapse into ordinary photo styling
 - retained the established v1 visual language as rendering authority while adding 2.0 reasoning and preservation intelligence
 - retained strict source-text protection and zero-new-text default
-- public product name standardized as **Press Print** while package/repository identifiers may continue to use `press-print`
+- public product name standardized as **Mixmatter** while package/repository identifiers may continue to use `mixmatter`
 
 ### Architecture
 
 - remains a **Skills-only** Agent Skill / OpenAI Plugin architecture
 - no MCP server is required
 - no custom ChatGPT host UI is required
-- no external Press Print image-generation backend is required
+- no external Mixmatter image-generation backend is required
 - host-native image understanding and generation/editing capabilities are used when available
 - future web or backend runtimes may implement the same six capability contracts without redefining the core product
 
@@ -63,7 +63,7 @@
 - revision continuity
 - distinction between revision-from-result and alternative-from-source
 - Typography, Restore, and Custom as interpretable direction families where relevant
-- the final Press Print product logo
+- the final Mixmatter product logo
 
 ## 1.0.2 — 2026-09-10
 
@@ -97,7 +97,7 @@ A compliant v1.0.2 result adds zero new text by default. Source text remains in 
 - added a fallback rule: if exact source text cannot be preserved reliably, crop, obscure, simplify, or retain it as photographic texture rather than hallucinating a replacement
 - strengthened hard failures for pseudo-text, filler editorial copy, translated/rewritten/duplicated source text, enlarged source-text headlines, and approximate hallucinated replacements
 - reduced prompt language that strongly implied typography-led poster or magazine-cover design
-- clarified that Press Print hierarchy must come from crop, scale, color, texture, source-derived geometry, overlap, and negative space rather than generated headlines or body copy
+- clarified that Mixmatter hierarchy must come from crop, scale, color, texture, source-derived geometry, overlap, and negative space rather than generated headlines or body copy
 - synchronized the universal Skill, OpenAI-packaged Skill, master prompt, packaged reference, and quality rubric around the same text policy
 - updated OpenAI starter prompts to explicitly prohibit new text while allowing source text to survive selectively
 - bumped OpenAI plugin metadata to `1.0.1`
@@ -112,7 +112,7 @@ The v1.0.1 hotfix specifically addressed source photographs containing signage t
 ### Added
 
 - `.codex-plugin/plugin.json` for OpenAI plugin packaging
-- `skills/press-print/SKILL.md` as the OpenAI-packaged Skill entry point
+- `skills/mixmatter/SKILL.md` as the OpenAI-packaged Skill entry point
 - self-contained bundled references for the master prompt and quality rubric
 - host behavior for missing-image handling and direct image generation/editing when available
 - brand, privacy, terms, support, evaluation, and listing materials
@@ -126,7 +126,7 @@ The v1.0.1 hotfix specifically addressed source photographs containing signage t
 
 ## 1.0.0 — 2026-09-09
 
-Initial Press Print image-only release.
+Initial Mixmatter image-only release.
 
 ### Added
 

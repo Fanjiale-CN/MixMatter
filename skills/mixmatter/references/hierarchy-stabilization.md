@@ -1,12 +1,12 @@
-# Matter 2.0 — Hierarchy Stabilization
+# Mixmatter 2.0 — Hierarchy Stabilization
 
-This reference strengthens Matter when the source image does not provide a sufficiently useful hierarchy. It extends the existing visual grammar; it does not introduce a new user-facing mode or replace the v1 rendering authority.
+This reference strengthens Mixmatter when the source image does not provide a sufficiently useful hierarchy. It extends the existing visual grammar; it does not introduce a new user-facing mode or replace the v1 rendering authority.
 
 ## Core rule
 
 > **Do not inherit weak source hierarchy by default. Resolve structural ambiguity before stylization.**
 
-When the source hierarchy is diffuse, repetitive, sparse, or ambiguous, Matter must form a stronger hierarchy from existing source content and relationships before reconstruction.
+When the source hierarchy is diffuse, repetitive, sparse, or ambiguous, Mixmatter must form a stronger hierarchy from existing source content and relationships before reconstruction.
 
 Do not use rigid percentage, object-count, or coverage thresholds as universal triggers. Judge whether the source hierarchy is stable enough to carry the intended reconstruction.
 

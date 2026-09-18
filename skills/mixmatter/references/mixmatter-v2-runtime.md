@@ -1,6 +1,6 @@
-# Matter 2.0 Art-Direction Runtime
+# Mixmatter 2.0 Art-Direction Runtime
 
-This reference adds the decision, preservation, and revision layer for Matter 2.0. It does **not** replace the visual language in `press-print-v1.md`.
+This reference adds the decision, preservation, and revision layer for Mixmatter 2.0. It does **not** replace the visual language in `mixmatter-v1.md`.
 
 ## Product rule
 
@@ -20,9 +20,9 @@ The following are invariant:
 - Preserve identity-bearing relationships before optical continuity.
 - Every visible intervention needs a structural or semantic cause.
 - Solve structure before adding material effects.
-- Expand Matter's intelligence, not its aesthetic identity.
+- Expand Mixmatter's intelligence, not its aesthetic identity.
 
-The original Matter visual DNA remains authoritative: planar composition, source-aware cropping, selective halftone/duotone, graphic fields, controlled tactile collage, modernist hierarchy, compressed depth, active negative space, and strict source-text control.
+The original Mixmatter visual DNA remains authoritative: planar composition, source-aware cropping, selective halftone/duotone, graphic fields, controlled tactile collage, modernist hierarchy, compressed depth, active negative space, and strict source-text control.
 
 ## Hidden reasoning sequence
 
@@ -110,14 +110,14 @@ Prefer structural operations before decorative ones:
 5. planar compression,
 6. controlled fragmentation / overlap / repetition when justified.
 
-A successful default Matter result should exhibit visibly reconstructed composition. Restraint may reduce material effects, but it must not reduce the result to ordinary photo styling.
+A successful default Mixmatter result should exhibit visibly reconstructed composition. Restraint may reduce material effects, but it must not reduce the result to ordinary photo styling.
 
 When the source hierarchy was unstable, establish a readable dominant / secondary / quiet organization without damaging identity-bearing group relations.
 
 ### MATERIALIZE
 Print materiality is causal, not cosmetic. Halftone, torn edges, misregistration, paper, photocopy noise, and ink-like behavior should appear only when they support hierarchy, separation, rupture, compression, or artifact-ness.
 
-A strong Matter result may use little or no torn paper when the source or direction does not need it.
+A strong Mixmatter result may use little or no torn paper when the source or direction does not need it.
 
 ### CRITIQUE
 Before accepting a result, check internally:
@@ -127,7 +127,7 @@ Before accepting a result, check internally:
 4. Did any intervention appear only because it looks fashionable?
 5. Is the result reconstructed rather than filtered?
 6. Is materiality bounded and coherent?
-7. Does it still look recognizably Matter rather than generic AI polish?
+7. Does it still look recognizably Mixmatter rather than generic AI polish?
 8. Did cinematic realism or excessive 3D depth creep back in?
 9. If repeated similar subjects were present, are they still competing at equal visual weight, or were they organized into dominant/supporting/field roles?
 10. If a substantial low-information field was present, does it have a compositional job, or was it passively ignored or arbitrarily filled?
@@ -147,7 +147,7 @@ If the user gives a clear direction, do not ask a redundant question.
 
 Examples:
 - `Make it flatter and more fragmented. Keep the face unchanged. No typography.`
-- `Turn this into a restrained Matter reconstruction.`
+- `Turn this into a restrained Mixmatter reconstruction.`
 - `Keep the current crop and reduce the tearing.`
 
 Silently perform the visual reading and preservation reasoning, then generate or revise.
@@ -157,14 +157,14 @@ If the user supplies an image and says only something like:
 - `process this`,
 - `handle this`,
 - `do your thing`,
-- `make it Matter`,
+- `make it Mixmatter`,
 
 first inspect the image, form the strongest source-specific direction, and execute.
 
 Only ask or offer concise alternatives when multiple interpretations are genuinely plausible and would materially change the result. Do not force the user to choose generic functions because the system is indecisive.
 
 ### C. Revision request → preserve state
-When the user refers to the current or previous Matter result:
+When the user refers to the current or previous Mixmatter result:
 - preserve the successful crop unless requested otherwise,
 - preserve explicit locks,
 - preserve useful hierarchy and visual relationships,
@@ -209,7 +209,7 @@ A large quiet field is not automatically a defect. Preserve it when it carries s
 
 ## External visual traditions
 
-Matter may learn spatial or organizational logic from different traditions, including Song painting and Japanese editorial design, but must import **logic, not costume**.
+Mixmatter may learn spatial or organizational logic from different traditions, including Song painting and Japanese editorial design, but must import **logic, not costume**.
 
 Do not turn those references into style switches, historical props, cultural symbols, antique paper, seals, or decorative clichés.
 
@@ -224,6 +224,6 @@ V2 reasoning does not loosen the v1 source-text system.
 
 ## Final principle
 
-The system should feel smarter while the images still feel like the Matter users already recognize.
+The system should feel smarter while the images still feel like the Mixmatter users already recognize.
 
 > Stable judgment preference, variable surface outcome.

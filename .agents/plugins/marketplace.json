@@ -1,11 +1,11 @@
 {
-  "name": "press-print-dev",
+  "name": "mixmatter-dev",
   "interface": {
-    "displayName": "Matter Development"
+    "displayName": "Mixmatter Development"
   },
   "plugins": [
     {
-      "name": "press-print",
+      "name": "mixmatter",
       "source": {
         "source": "local",
         "path": "./"

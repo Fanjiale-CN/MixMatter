@@ -1,17 +1,17 @@
-# Matter brand and publisher specification
+# Mixmatter brand and publisher specification
 
 ## Public identity
 
-- **Product / plugin name:** Matter
-- **Technical package / Skill slug:** `press-print` (retained for compatibility)
+- **Product / plugin name:** Mixmatter
+- **Technical package / Skill slug:** `mixmatter` (retained for compatibility)
 - **Publisher brand:** Galok
 - **Publisher:** Fan Jiale, an individual developer publishing under the Galok brand
 - **OpenAI listing developer name:** Galok
 - **OpenAI developer identity:** Fan Jiale when submitting as a verified individual
 - **Repository:** https://github.com/Fanjiale-CN/press-print
-- **Website:** https://www.galok.me/press-print/
+- **Website:** https://www.galok.me/mixmatter/
 
-Matter is a Galok project with its own product identity. Existing repository, package, Skill, and website paths remain stable so installed integrations and links do not break.
+Mixmatter is a Galok project with its own product identity. Existing repository, package, Skill, and website paths remain stable so installed integrations and links do not break.
 
 ## Positioning
 
@@ -25,7 +25,7 @@ Matter is a Galok project with its own product identity. Existing repository, pa
 
 **Long listing description**
 
-> Matter reads a source image, identifies what must survive, forms a source-specific art-direction thesis, and reconstructs the image through crop, flattened planes, selective photography, halftone and duotone, graphic reduction, controlled collage, and tactile material logic. It preserves semantic identity while allowing visual structure to be spent deliberately.
+> Mixmatter reads a source image, identifies what must survive, forms a source-specific art-direction thesis, and reconstructs the image through crop, flattened planes, selective photography, halftone and duotone, graphic reduction, controlled collage, and tactile material logic. It preserves semantic identity while allowing visual structure to be spent deliberately.
 
 **OpenAI category**
 
@@ -33,7 +33,7 @@ Matter is a Galok project with its own product identity. Existing repository, pa
 
 ## Identity idea
 
-The Matter icon is a compact material stack rather than a lettermark. It represents a source image being read as separate visual substances and recomposed into one object.
+The Mixmatter icon is a compact material stack rather than a lettermark. It represents a source image being read as separate visual substances and recomposed into one object.
 
 Its fixed geometry contains:
 
@@ -50,7 +50,7 @@ The depth order is structural: the halftone card remains in front of the archite
 
 ### Core accents
 
-- Matter Blue: `#126BFF`
+- Mixmatter Blue: `#126BFF`
 - Cyan Tape: `#A9E5F6`
 - Lavender Marker: `#9B8BF5`
 - Concrete: `#D7DCE3`
@@ -82,9 +82,9 @@ The depth order is structural: the halftone card remains in front of the archite
 
 ## Canonical assets
 
-- `assets/matter-icon-light.svg`
-- `assets/matter-icon-dark.svg`
+- `assets/mixmatter-icon-light.svg`
+- `assets/mixmatter-icon-dark.svg`
 
-Legacy `press-print-logo-*.svg` files may remain for historical compatibility but are no longer the active identity.
+Legacy `mixmatter-logo-*.svg` files may remain for historical compatibility but are no longer the active identity.
 
-The Galok and Matter names and marks remain branding identifiers. The MIT License does not grant trademark rights or a general right to imply endorsement by the publisher.
+The Galok and Mixmatter names and marks remain branding identifiers. The MIT License does not grant trademark rights or a general right to imply endorsement by the publisher.

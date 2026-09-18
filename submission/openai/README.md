@@ -1,26 +1,26 @@
-# OpenAI Plugin Submission Materials — Matter 2.0
+# OpenAI Plugin Submission Materials — Mixmatter 2.0
 
-This directory contains review-facing materials for the UI-independent Matter 2.0 Plugin package.
+This directory contains review-facing materials for the UI-independent Mixmatter 2.0 Plugin package.
 
 ## Architecture
 
 **Skills-only / no MCP runtime**
 
-Matter 2.0 does not require:
+Mixmatter 2.0 does not require:
 
 - an MCP server,
 - a custom ChatGPT host UI,
 - authentication,
 - an external account,
-- a separate Matter image-generation backend,
+- a separate Mixmatter image-generation backend,
 - reviewer credentials or private fixture data.
 
 The Plugin supplies art-direction and visual-reconstruction instructions. The host platform performs image understanding and image generation/editing when those capabilities are available.
 
 ## Plugin identity
 
-- Public name: `Matter`
-- Package name: `press-print`
+- Public name: `Mixmatter`
+- Package name: `mixmatter`
 - Publisher brand: `Galok`
 - Developer identity: `Fan Jiale`
 - Category: `Creativity`
@@ -39,23 +39,23 @@ Relevant files:
 └── plugin.json
 
 skills/
-└── press-print/
+└── mixmatter/
     ├── SKILL.md
     └── references/
-        ├── press-print-v1.md
-        ├── press-print-v2-runtime.md
+        ├── mixmatter-v1.md
+        ├── mixmatter-v2-runtime.md
         └── quality-rubric.md
 
 assets/
-├── press-print-logo-light.svg
-└── press-print-logo-dark.svg
+├── mixmatter-logo-light.svg
+└── mixmatter-logo-dark.svg
 ```
 
-Do not package the abandoned `apps/press-print-chatgpt/` UI layer. It is not part of Matter 2.0.
+Do not package the abandoned `apps/mixmatter-chatgpt/` UI layer. It is not part of Mixmatter 2.0.
 
 ## Canonical behavior
 
-Matter 2.0 adds a research-backed decision layer around the established v1 visual language:
+Mixmatter 2.0 adds a research-backed decision layer around the established v1 visual language:
 
 `READ → UNDERSTAND → PROTECT → DIRECT → RECONSTRUCT → MATERIALIZE → CRITIQUE → REVISE`
 
@@ -72,10 +72,10 @@ Key reviewer expectations:
 
 ## Public listing URLs
 
-- Website: `https://www.galok.me/press-print/`
-- Support: `https://www.galok.me/press-print/support/`
-- Privacy: `https://www.galok.me/press-print/privacy/`
-- Terms: `https://www.galok.me/press-print/terms/`
+- Website: `https://www.galok.me/mixmatter/`
+- Support: `https://www.galok.me/mixmatter/support/`
+- Privacy: `https://www.galok.me/mixmatter/privacy/`
+- Terms: `https://www.galok.me/mixmatter/terms/`
 
 Fan Jiale is the individual developer; Galok is the public publishing brand.
 
@@ -88,4 +88,4 @@ Fan Jiale is the individual developer; Galok is the public publishing brand.
 
 ## Reviewer setup
 
-For positive tests, reviewers can attach any non-sensitive image they have permission to use. No Matter account, API key, demo credentials, MFA, private-network access, or fixture database is required.
+For positive tests, reviewers can attach any non-sensitive image they have permission to use. No Mixmatter account, API key, demo credentials, MFA, private-network access, or fixture database is required.

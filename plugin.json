@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mixmatter",
+  "version": "2.1.0",
+  "description": "Mixmatter is a source-aware AI art-direction and visual-reconstruction system for existing imagery.",
+  "author": {
+    "name": "Fan Jiale / Galok",
+    "email": "galokview@outlook.com",
+    "url": "https://www.galok.me"
+  },
+  "homepage": "https://www.galok.me/mixmatter/",
+  "repository": "https://github.com/Fanjiale-CN/press-print",
+  "license": "MIT",
+  "keywords": [
+    "image-generation",
+    "art-direction",
+    "editorial-design",
+    "visual-reconstruction",
+    "halftone",
+    "duotone",
+    "collage"
+  ],
+  "extensions": {
+    "com.openai": {
+      "displayName": "Mixmatter",
+      "category": "Creativity",
+      "websiteURL": "https://www.galok.me/mixmatter/",
+      "privacyPolicyURL": "https://www.galok.me/mixmatter/privacy/",
+      "termsOfServiceURL": "https://www.galok.me/mixmatter/terms/",
+      "brandColor": "#126BFF"
+    }
+  }
+}

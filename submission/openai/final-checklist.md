@@ -1,14 +1,14 @@
-# Final Submission Readiness Checklist — Matter 2.0
+# Final Submission Readiness Checklist — Mixmatter 2.0
 
-This checklist covers the UI-independent Skills-only Matter 2.0 package.
+This checklist covers the UI-independent Skills-only Mixmatter 2.0 package.
 
 ## Repository readiness
 
-- [x] Public product name is `Matter`.
+- [x] Public product name is `Mixmatter`.
 - [x] Package version is `2.0.0`.
 - [x] Plugin manifest is present at `.codex-plugin/plugin.json`.
-- [x] Packaged Skill is present at `skills/press-print/`.
-- [x] Packaged references include `press-print-v1.md`, `press-print-v2-runtime.md`, and `quality-rubric.md`.
+- [x] Packaged Skill is present at `skills/mixmatter/`.
+- [x] Packaged references include `mixmatter-v1.md`, `mixmatter-v2-runtime.md`, and `quality-rubric.md`.
 - [x] The seven canonical 2.0 research/system outputs are retained.
 - [x] ChatGPT host UI source code has been removed from the active product architecture.
 - [x] Host-UI specification documents have been removed from the active product architecture.
@@ -16,8 +16,8 @@ This checklist covers the UI-independent Skills-only Matter 2.0 package.
 - [x] Direction / Structure / Intensity remain available as natural-language product semantics.
 - [x] Revision continuity remains part of the 2.0 behavior.
 - [x] Source-text protection remains strict.
-- [x] Light and dark Matter logo assets are present.
-- [x] Privacy and Terms describe a Skills-only architecture with no separate Matter MCP service.
+- [x] Light and dark Mixmatter logo assets are present.
+- [x] Privacy and Terms describe a Skills-only architecture with no separate Mixmatter MCP service.
 
 ## Behavior checks
 
@@ -31,7 +31,7 @@ This checklist covers the UI-independent Skills-only Matter 2.0 package.
 - [ ] Confirm zero new text is added by default.
 - [ ] Confirm uncertain source text is obscured/cropped rather than hallucinated.
 - [ ] Confirm source text is not translated or bilingual-duplicated by default.
-- [ ] Run representative cases from `docs/system/PP_REGRESSION_BENCHMARK.md`.
+- [ ] Run representative cases from `docs/system/MIXMIXMATTER_REGRESSION_BENCHMARK.md`.
 
 ## Submission package
 
@@ -42,19 +42,19 @@ The final ZIP should preserve this relevant structure:
 └── plugin.json
 
 skills/
-└── press-print/
+└── mixmatter/
     ├── SKILL.md
     └── references/
-        ├── press-print-v1.md
-        ├── press-print-v2-runtime.md
+        ├── mixmatter-v1.md
+        ├── mixmatter-v2-runtime.md
         └── quality-rubric.md
 
 assets/
-├── press-print-logo-light.svg
-└── press-print-logo-dark.svg
+├── mixmatter-logo-light.svg
+└── mixmatter-logo-dark.svg
 ```
 
-Do not include the retired `apps/press-print-chatgpt/` implementation as an active runtime dependency.
+Do not include the retired `apps/mixmatter-chatgpt/` implementation as an active runtime dependency.
 
 ## Review materials
 
