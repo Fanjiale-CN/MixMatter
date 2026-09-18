@@ -24,15 +24,15 @@ Mixmatter 2.1 keeps the visual DNA established in v1 while adding stronger sourc
 ## Install
 
 ```bash
-npx skills add Fanjiale-CN/mixmatter --list
-npx skills add Fanjiale-CN/mixmatter --skill mixmatter
+npx skills add Fanjiale-CN/press-print --list
+npx skills add Fanjiale-CN/press-print --skill mixmatter
 ```
 
-Repository: `Fanjiale-CN/mixmatter`  
+Repository: `Fanjiale-CN/press-print`  
 Skill: `mixmatter`  
 Entry point: `SKILL.md`
 
-> **Compatibility:** the repository, package, and Skill identifiers remain `mixmatter` so existing installs and links keep working. The public product name is **Mixmatter**.
+> **Identity:** the OpenAI package and Skill slug are `mixmatter`. The current GitHub repository URL remains `Fanjiale-CN/press-print` until the repository slug itself is renamed.
 
 ## How Mixmatter 2.1 works
 

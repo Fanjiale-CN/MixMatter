@@ -16,7 +16,7 @@ This checklist covers the UI-independent Skills-only Mixmatter 2.1 package.
 - [x] Direction / Structure / Intensity remain available as natural-language product semantics.
 - [x] Revision continuity remains part of the 2.1 behavior.
 - [x] Source-text protection remains strict.
-- [x] Light and dark Mixmatter logo assets are present.
+- [x] Light and dark Mixmatter icon assets are present.
 - [x] Privacy and Terms describe a Skills-only architecture with no separate Mixmatter MCP service.
 
 ## Behavior checks
@@ -70,7 +70,7 @@ Do not include the retired `apps/mixmatter-chatgpt/` implementation as an active
 
 - [ ] Build the final Plugin ZIP from the reviewed repository state.
 - [ ] Upload that exact ZIP to the OpenAI submission flow.
-- [ ] Confirm the portal parses `.codex-plugin/plugin.json` successfully.
+- [ ] Confirm the portal parses root `plugin.json` successfully and accepts `.codex-plugin/plugin.json` as the compatibility manifest.
 - [ ] Copy the finalized listing details and starter prompts.
 - [ ] Add the positive and negative tests from `test-cases.md`.
 - [ ] Confirm country / region availability at submission time.
