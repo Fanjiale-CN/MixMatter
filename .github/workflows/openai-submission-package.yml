@@ -98,4 +98,5 @@ jobs:
           name: matter-openai-submission-2.1.0
           path: dist/
           if-no-files-found: error
+          include-hidden-files: true
           retention-days: 30
