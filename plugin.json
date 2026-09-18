@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "mixmatter",
+  "name": "press-print",
   "version": "2.1.0",
   "description": "Mixmatter is a source-aware AI art-direction and visual-reconstruction system for existing imagery.",
   "author": {
