@@ -266,7 +266,7 @@ After each output, the system performs self-critique.
 - Is the result recognizably Mixmatter?
 
 ### 10.2 Failure categories
-Use the canonical failure taxonomy in `MIXMIXMATTER_REGRESSION_BENCHMARK.md` and `MIXMIXMATTER_SYSTEM_SCHEMA.yaml`.
+Use the canonical failure taxonomy in `MIXMATTER_REGRESSION_BENCHMARK.md` and `MIXMATTER_SYSTEM_SCHEMA.yaml`.
 
 ---
 

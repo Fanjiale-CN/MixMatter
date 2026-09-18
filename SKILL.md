@@ -21,8 +21,8 @@ Also use these canonical references when relevant:
 - `skills/mixmatter/references/mixmatter-v1.md` — established Mixmatter visual reconstruction language. V2 must not replace or dilute it.
 - `skills/mixmatter/references/quality-rubric.md` — evaluation and regression guidance.
 - `skills/mixmatter/references/hierarchy-stabilization.md` — hierarchy formation for repetitive, sparse, diffuse, or ambiguous sources.
-- `docs/system/MIXMIXMATTER_CORE_CONSTITUTION.md` — non-negotiable product identity.
-- `docs/system/MIXMIXMATTER_VISUAL_GRAMMAR.md` — research-derived visual grammar.
+- `docs/system/MIXMATTER_CORE_CONSTITUTION.md` — non-negotiable product identity.
+- `docs/system/MIXMATTER_VISUAL_GRAMMAR.md` — research-derived visual grammar.
 
 ## Non-negotiable identity
 

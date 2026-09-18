@@ -1,10 +1,10 @@
-# Mixmatter OpenAI Plugin Test Plan — 2.0
+# Mixmatter OpenAI Plugin Test Plan — 2.1
 
-This plan validates the UI-independent Skills-only Mixmatter 2.0 package.
+This plan validates the UI-independent Skills-only Mixmatter 2.1 package.
 
 ## Goal
 
-Verify that Mixmatter can be discovered and invoked with a supplied image, performs source-aware art direction and reconstruction, preserves semantic identity, keeps revision continuity, and follows the 2.0 research-derived decision system without relying on MCP widgets or a custom ChatGPT host UI.
+Verify that Mixmatter can be discovered and invoked with a supplied image, performs source-aware art direction and reconstruction, preserves semantic identity, keeps revision continuity, and follows the 2.1 research-derived decision system without relying on MCP widgets or a custom ChatGPT host UI.
 
 ## Marketplace setup
 
@@ -162,7 +162,7 @@ Expected: Mixmatter should not be selected automatically because its core identi
 For successful transformations, evaluate against both:
 
 - `eval/quality-rubric.md`
-- `docs/system/MIXMIXMATTER_REGRESSION_BENCHMARK.md`
+- `docs/system/MIXMATTER_REGRESSION_BENCHMARK.md`
 
 Check specifically that:
 

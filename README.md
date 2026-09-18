@@ -145,13 +145,13 @@ If the user supplies exact wording, use only that wording unless they explicitly
 
 Mixmatter 2.1 is grounded in seven canonical system documents:
 
-1. [`docs/MIXMIXMATTER_2_RUNTIME.md`](docs/MIXMIXMATTER_2_RUNTIME.md)
-2. [`docs/system/MIXMIXMATTER_ART_DIRECTION_POLICY.md`](docs/system/MIXMIXMATTER_ART_DIRECTION_POLICY.md)
-3. [`docs/system/MIXMIXMATTER_CORE_CONSTITUTION.md`](docs/system/MIXMIXMATTER_CORE_CONSTITUTION.md)
-4. [`docs/system/MIXMIXMATTER_REGRESSION_BENCHMARK.md`](docs/system/MIXMIXMATTER_REGRESSION_BENCHMARK.md)
-5. [`docs/system/MIXMIXMATTER_SYSTEM_SCHEMA.yaml`](docs/system/MIXMIXMATTER_SYSTEM_SCHEMA.yaml)
-6. [`docs/system/MIXMIXMATTER_TOOL_SPEC.md`](docs/system/MIXMIXMATTER_TOOL_SPEC.md)
-7. [`docs/system/MIXMIXMATTER_VISUAL_GRAMMAR.md`](docs/system/MIXMIXMATTER_VISUAL_GRAMMAR.md)
+1. [`docs/MIXMATTER_2_RUNTIME.md`](docs/MIXMATTER_2_RUNTIME.md)
+2. [`docs/system/MIXMATTER_ART_DIRECTION_POLICY.md`](docs/system/MIXMATTER_ART_DIRECTION_POLICY.md)
+3. [`docs/system/MIXMATTER_CORE_CONSTITUTION.md`](docs/system/MIXMATTER_CORE_CONSTITUTION.md)
+4. [`docs/system/MIXMATTER_REGRESSION_BENCHMARK.md`](docs/system/MIXMATTER_REGRESSION_BENCHMARK.md)
+5. [`docs/system/MIXMATTER_SYSTEM_SCHEMA.yaml`](docs/system/MIXMATTER_SYSTEM_SCHEMA.yaml)
+6. [`docs/system/MIXMATTER_TOOL_SPEC.md`](docs/system/MIXMATTER_TOOL_SPEC.md)
+7. [`docs/system/MIXMATTER_VISUAL_GRAMMAR.md`](docs/system/MIXMATTER_VISUAL_GRAMMAR.md)
 
 These preserve the research layer independently of any particular interface implementation.
 
@@ -173,7 +173,7 @@ The repository retains the ten canonical high-resolution v1 source/result showca
 Use:
 
 - [`eval/quality-rubric.md`](eval/quality-rubric.md)
-- [`docs/system/MIXMIXMATTER_REGRESSION_BENCHMARK.md`](docs/system/MIXMIXMATTER_REGRESSION_BENCHMARK.md)
+- [`docs/system/MIXMATTER_REGRESSION_BENCHMARK.md`](docs/system/MIXMATTER_REGRESSION_BENCHMARK.md)
 
 The 2.0 benchmark evaluates semantic preservation, Mixmatter identity, reconstruction strength, editorial hierarchy, planar coherence, material coherence, source specificity, and common drift penalties.
 
@@ -189,14 +189,14 @@ mixmatter/
 │       ├── mixmatter-v2-runtime.md
 │       └── quality-rubric.md
 ├── docs/
-│   ├── MIXMIXMATTER_2_RUNTIME.md
+│   ├── MIXMATTER_2_RUNTIME.md
 │   └── system/
-│       ├── MIXMIXMATTER_ART_DIRECTION_POLICY.md
-│       ├── MIXMIXMATTER_CORE_CONSTITUTION.md
-│       ├── MIXMIXMATTER_REGRESSION_BENCHMARK.md
-│       ├── MIXMIXMATTER_SYSTEM_SCHEMA.yaml
-│       ├── MIXMIXMATTER_TOOL_SPEC.md
-│       └── MIXMIXMATTER_VISUAL_GRAMMAR.md
+│       ├── MIXMATTER_ART_DIRECTION_POLICY.md
+│       ├── MIXMATTER_CORE_CONSTITUTION.md
+│       ├── MIXMATTER_REGRESSION_BENCHMARK.md
+│       ├── MIXMATTER_SYSTEM_SCHEMA.yaml
+│       ├── MIXMATTER_TOOL_SPEC.md
+│       └── MIXMATTER_VISUAL_GRAMMAR.md
 ├── prompt/mixmatter-v1.md
 ├── eval/
 └── examples/

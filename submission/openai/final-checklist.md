@@ -1,20 +1,20 @@
-# Final Submission Readiness Checklist — Mixmatter 2.0
+# Final Submission Readiness Checklist — Mixmatter 2.1
 
-This checklist covers the UI-independent Skills-only Mixmatter 2.0 package.
+This checklist covers the UI-independent Skills-only Mixmatter 2.1 package.
 
 ## Repository readiness
 
 - [x] Public product name is `Mixmatter`.
-- [x] Package version is `2.0.0`.
-- [x] Plugin manifest is present at `.codex-plugin/plugin.json`.
+- [x] Package version is `2.1.0`.
+- [x] Portable manifest is present at root `plugin.json`, with `.codex-plugin/plugin.json` retained as the OpenAI/Codex compatibility manifest.
 - [x] Packaged Skill is present at `skills/mixmatter/`.
 - [x] Packaged references include `mixmatter-v1.md`, `mixmatter-v2-runtime.md`, and `quality-rubric.md`.
-- [x] The seven canonical 2.0 research/system outputs are retained.
+- [x] The seven canonical research/system outputs are retained.
 - [x] ChatGPT host UI source code has been removed from the active product architecture.
 - [x] Host-UI specification documents have been removed from the active product architecture.
 - [x] The Skill no longer depends on creation/result cards, widgets, or MCP UI tools.
 - [x] Direction / Structure / Intensity remain available as natural-language product semantics.
-- [x] Revision continuity remains part of the 2.0 behavior.
+- [x] Revision continuity remains part of the 2.1 behavior.
 - [x] Source-text protection remains strict.
 - [x] Light and dark Mixmatter logo assets are present.
 - [x] Privacy and Terms describe a Skills-only architecture with no separate Mixmatter MCP service.
@@ -31,13 +31,14 @@ This checklist covers the UI-independent Skills-only Mixmatter 2.0 package.
 - [ ] Confirm zero new text is added by default.
 - [ ] Confirm uncertain source text is obscured/cropped rather than hallucinated.
 - [ ] Confirm source text is not translated or bilingual-duplicated by default.
-- [ ] Run representative cases from `docs/system/MIXMIXMATTER_REGRESSION_BENCHMARK.md`.
+- [ ] Run representative cases from `docs/system/MIXMATTER_REGRESSION_BENCHMARK.md`.
 
 ## Submission package
 
 The final ZIP should preserve this relevant structure:
 
 ```text
+plugin.json
 .codex-plugin/
 └── plugin.json
 
@@ -50,18 +51,18 @@ skills/
         └── quality-rubric.md
 
 assets/
-├── mixmatter-logo-light.svg
-└── mixmatter-logo-dark.svg
+├── mixmatter-icon-light.svg
+└── mixmatter-icon-dark.svg
 ```
 
 Do not include the retired `apps/mixmatter-chatgpt/` implementation as an active runtime dependency.
 
 ## Review materials
 
-- [x] 2.0 listing copy prepared.
-- [x] Three 2.0 starter prompts prepared.
+- [x] 2.1 listing copy prepared.
+- [x] Three 2.1 starter prompts prepared.
 - [x] Positive and negative review-test framework prepared.
-- [x] 2.0 release notes prepared.
+- [x] 2.1 release notes prepared.
 - [x] Public website, support, privacy, and terms URLs are listed.
 - [x] Developer / publisher relationship remains `Fan Jiale` / `Galok`.
 
@@ -77,4 +78,4 @@ Do not include the retired `apps/mixmatter-chatgpt/` implementation as an active
 
 ## Go / no-go status
 
-**Status: 2.0 UI-FREE REPOSITORY STRUCTURE READY; VISUAL REGRESSION RETEST + FINAL ZIP BUILD PENDING.**
+**Status: MIXMATTER 2.1 PACKAGE STRUCTURE READY; FINAL ZIP VALIDATION + PORTAL UPLOAD PENDING.**

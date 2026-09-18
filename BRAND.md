@@ -3,7 +3,7 @@
 ## Public identity
 
 - **Product / plugin name:** Mixmatter
-- **Technical package / Skill slug:** `mixmatter` (retained for compatibility)
+- **Technical package / Skill slug:** `mixmatter`
 - **Publisher brand:** Galok
 - **Publisher:** Fan Jiale, an individual developer publishing under the Galok brand
 - **OpenAI listing developer name:** Galok
@@ -11,7 +11,7 @@
 - **Repository:** https://github.com/Fanjiale-CN/press-print
 - **Website:** https://www.galok.me/mixmatter/
 
-Mixmatter is a Galok project with its own product identity. Existing repository, package, Skill, and website paths remain stable so installed integrations and links do not break.
+Mixmatter is a Galok project with one public identity across the website, OpenAI package, Skill slug, documentation, and active brand assets.
 
 ## Positioning
 
@@ -84,7 +84,5 @@ The depth order is structural: the halftone card remains in front of the archite
 
 - `assets/mixmatter-icon-light.svg`
 - `assets/mixmatter-icon-dark.svg`
-
-Legacy `mixmatter-logo-*.svg` files may remain for historical compatibility but are no longer the active identity.
 
 The Galok and Mixmatter names and marks remain branding identifiers. The MIT License does not grant trademark rights or a general right to imply endorsement by the publisher.

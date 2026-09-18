@@ -43,7 +43,7 @@ Read the actual source image and produce a structured understanding of:
 - transformation risks and opportunities.
 
 ### Current runtime
-Model-native capability governed by `SKILL.md`, `MIXMIXMATTER_VISUAL_GRAMMAR.md`, and `MIXMIXMATTER_SYSTEM_SCHEMA.yaml`.
+Model-native capability governed by `SKILL.md`, `MIXMATTER_VISUAL_GRAMMAR.md`, and `MIXMATTER_SYSTEM_SCHEMA.yaml`.
 
 ### Required behaviors
 - separate semantic importance from raw salience,
@@ -145,7 +145,7 @@ These may be expressed in ordinary language:
 Evaluate whether the generated result achieved the intended direction while preserving source identity and Mixmatter identity.
 
 ### Current runtime
-Model-native self-critique governed by `MIXMIXMATTER_REGRESSION_BENCHMARK.md` and the existing quality rubric.
+Model-native self-critique governed by `MIXMATTER_REGRESSION_BENCHMARK.md` and the existing quality rubric.
 
 ### Core dimensions
 - semantic preservation,

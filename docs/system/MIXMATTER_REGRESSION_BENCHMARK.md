@@ -275,7 +275,7 @@ Use these canonical tags:
 - cultural_costume_drift
 - drift_from_direction
 
-Keep these tags aligned with the runtime critique language. If `MIXMIXMATTER_SYSTEM_SCHEMA.yaml` is extended later, mirror these tags there rather than creating competing names.
+Keep these tags aligned with the runtime critique language. If `MIXMATTER_SYSTEM_SCHEMA.yaml` is extended later, mirror these tags there rather than creating competing names.
 
 ---
 

@@ -2,6 +2,10 @@
 
 ## Release notes
 
+### Mixmatter 2.1.0 — Unified Mixmatter identity and portable OpenAI package
+
+Mixmatter 2.1 unifies the product name, Skill slug, public website URLs, active icons, review materials, and plugin manifests under the Mixmatter identity. It adds the preferred portable root `plugin.json` while retaining `.codex-plugin/plugin.json` as an OpenAI/Codex compatibility manifest. The core source-aware reconstruction behavior and Skills-only architecture remain unchanged.
+
 ### Mixmatter 2.0.0 — Research-integrated art direction, no custom host UI
 
 Mixmatter 2.0 upgrades the project from a strong source-aware reconstruction prompt into a research-backed AI art-direction system for existing imagery.

@@ -1,6 +1,6 @@
-# OpenAI Review Test Cases — Mixmatter 2.0
+# OpenAI Review Test Cases — Mixmatter 2.1
 
-These cases cover the UI-independent Mixmatter 2.0 Skill, including autonomous art direction, preservation contracts, visible reconstruction, revision continuity, alternative-from-source behavior, and source-text protection.
+These cases cover the UI-independent Mixmatter 2.1 Skill, including autonomous art direction, preservation contracts, visible reconstruction, revision continuity, alternative-from-source behavior, and source-text protection.
 
 Mixmatter requires no account, authentication, demo credentials, external MCP server, or private fixture data.
 
@@ -154,7 +154,7 @@ Mixmatter should not be selected automatically. Its core identity is source-imag
 
 If the user explicitly invokes Mixmatter with a source image, exact supplied wording or explicitly authorized generated copy may be used under the Skill's typography rules.
 
-## 2.0 regression checks
+## 2.1 regression checks
 
 Reject or revise a generated result if any of the following occurs:
 
@@ -175,4 +175,4 @@ Reject or revise a generated result if any of the following occurs:
 
 ## Research benchmark note
 
-For broader release validation, use `docs/system/MIXMIXMATTER_REGRESSION_BENCHMARK.md`, which defines the 40-image target set, source categories, hard cases, scoring dimensions, identity gates, and failure taxonomy.
+For broader release validation, use `docs/system/MIXMATTER_REGRESSION_BENCHMARK.md`, which defines the 40-image target set, source categories, hard cases, scoring dimensions, identity gates, and failure taxonomy.
