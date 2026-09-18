@@ -5,14 +5,14 @@ on:
     paths:
       - "docs/**"
       - "skills/mixmatter/**"
-      - ".github/workflows/mixmatter-ci.yml"
+      - ".github/workflows/press-print-2-ci.yml"
   push:
     branches:
       - main
     paths:
       - "docs/**"
       - "skills/mixmatter/**"
-      - ".github/workflows/mixmatter-ci.yml"
+      - ".github/workflows/press-print-2-ci.yml"
 
 permissions:
   contents: read
