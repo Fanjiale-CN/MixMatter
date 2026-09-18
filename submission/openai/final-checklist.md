@@ -6,7 +6,7 @@ This checklist covers the UI-independent Skills-only Mixmatter 2.1 package.
 
 - [x] Public product name is `Mixmatter`.
 - [x] Package version is `2.1.0`.
-- [x] Portable manifest is present at root `plugin.json`, with `.codex-plugin/plugin.json` retained as the OpenAI/Codex compatibility manifest.
+- [x] Portable manifest is present at root `plugin.json`, including OpenAI-specific listing metadata under `extensions.com.openai.interface`; `.codex-plugin/plugin.json` remains as a compatibility fallback.
 - [x] Packaged Skill is present at `skills/mixmatter/`.
 - [x] Packaged references include `mixmatter-v1.md`, `mixmatter-v2-runtime.md`, and `quality-rubric.md`.
 - [x] The seven canonical research/system outputs are retained.
@@ -68,9 +68,9 @@ Do not include the retired `apps/mixmatter-chatgpt/` implementation as an active
 
 ## Portal actions
 
-- [ ] Build the final Plugin ZIP from the reviewed repository state.
+- [x] Build the final Plugin ZIP from the reviewed repository state.
 - [ ] Upload that exact ZIP to the OpenAI submission flow.
-- [ ] Confirm the portal parses root `plugin.json` successfully and accepts `.codex-plugin/plugin.json` as the compatibility manifest.
+- [ ] Confirm the portal parses root `plugin.json` successfully; root `extensions.com.openai.interface` is the authoritative OpenAI listing configuration.
 - [ ] Copy the finalized listing details and starter prompts.
 - [ ] Add the positive and negative tests from `test-cases.md`.
 - [ ] Confirm country / region availability at submission time.
