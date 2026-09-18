@@ -4,6 +4,8 @@ on:
   pull_request:
     paths:
       - "docs/**"
+      - "submission/openai/**"
+      - "submission/openai/**"
       - "skills/press-print/**"
       - "skills/mixmatter/**"
       - "plugin.json"
