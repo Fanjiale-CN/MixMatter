@@ -4,9 +4,9 @@ This checklist covers the UI-independent Skills-only Mixmatter 2.1 package.
 
 ## Repository readiness
 
-- [x] Public product name is `Mixmatter`.
+- [x] Public product name is `Mixmatter`; existing plugin technical name remains `press-print`.
 - [x] Package version is `2.1.0`.
-- [x] Portable manifest is present at root `plugin.json`, including OpenAI-specific listing metadata under `extensions.com.openai.interface`; `.codex-plugin/plugin.json` remains as a compatibility fallback.
+- [x] Portable manifest is present at root `plugin.json`; its technical `name` is `press-print` to match the existing OpenAI plugin, while `extensions.com.openai.interface.displayName` is `Mixmatter`. `.codex-plugin/plugin.json` remains a repository compatibility fallback.
 - [x] Packaged Skill is present at `skills/mixmatter/`.
 - [x] Packaged references include `mixmatter-v1.md`, `mixmatter-v2-runtime.md`, and `quality-rubric.md`.
 - [x] The seven canonical research/system outputs are retained.
@@ -67,7 +67,7 @@ Do not include the retired `apps/mixmatter-chatgpt/` implementation as an active
 
 - [x] Build the final Plugin ZIP from the reviewed repository state using the `Build Mixmatter OpenAI Package` workflow.
 - [ ] Upload that exact ZIP to the OpenAI submission flow.
-- [ ] Confirm the portal parses root `plugin.json` successfully; root `extensions.com.openai.interface` is the authoritative OpenAI listing configuration.
+- [ ] Confirm the portal accepts root `plugin.json` with technical name `press-print`, converts it to normalized Codex format, and preserves `Mixmatter` as the display name.
 - [ ] Copy the finalized listing details and starter prompts.
 - [ ] Add the positive and negative tests from `test-cases.md`.
 - [ ] Confirm country / region availability at submission time.
