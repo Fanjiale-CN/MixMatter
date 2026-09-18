@@ -1,0 +1,85 @@
+name: Build Mixmatter OpenAI Package
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "plugin.json"
+      - "skills/mixmatter/**"
+      - "assets/mixmatter-icon-*.svg"
+      - "LICENSE"
+      - ".github/workflows/mixmatter-openai-package.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build-openai-package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Validate portable Mixmatter package
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          manifest = json.loads(Path("plugin.json").read_text())
+          assert manifest["$schema"] == "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          assert manifest["name"] == "mixmatter"
+          assert manifest["version"] == "2.1.0"
+          assert "repository" not in manifest
+
+          interface = manifest["extensions"]["com.openai"]["interface"]
+          assert interface["displayName"] == "Mixmatter"
+          assert interface["category"] == "Creativity"
+          assert interface["websiteURL"] == "https://www.galok.me/mixmatter/"
+          assert interface["privacyPolicyURL"] == "https://www.galok.me/mixmatter/privacy/"
+          assert interface["termsOfServiceURL"] == "https://www.galok.me/mixmatter/terms/"
+          assert interface["composerIcon"] == "./assets/mixmatter-icon-light.svg"
+          assert interface["logo"] == "./assets/mixmatter-icon-light.svg"
+
+          required = [
+              Path("skills/mixmatter/SKILL.md"),
+              Path("skills/mixmatter/references/mixmatter-v1.md"),
+              Path("skills/mixmatter/references/mixmatter-v2-runtime.md"),
+              Path("skills/mixmatter/references/quality-rubric.md"),
+              Path("skills/mixmatter/references/hierarchy-stabilization.md"),
+              Path("assets/mixmatter-icon-light.svg"),
+              Path("assets/mixmatter-icon-dark.svg"),
+              Path("LICENSE"),
+          ]
+          for path in required:
+              assert path.is_file(), f"missing {path}"
+
+          package_text = "\n".join(
+              p.read_text(errors="ignore")
+              for p in [Path("plugin.json"), *Path("skills/mixmatter").rglob("*.md")]
+          )
+          for stale in ("Press Print", "Press-Print", "galok.me/press-print"):
+              assert stale not in package_text, f"stale identity found: {stale}"
+          PY
+
+      - name: Stage submission files
+        shell: bash
+        run: |
+          mkdir -p dist/assets dist/skills
+          cp plugin.json dist/
+          cp LICENSE dist/
+          cp -R skills/mixmatter dist/skills/
+          cp assets/mixmatter-icon-light.svg dist/assets/
+          cp assets/mixmatter-icon-dark.svg dist/assets/
+
+      - name: Upload Mixmatter OpenAI ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: mixmatter-openai-2.1.0
+          path: dist/
+          if-no-files-found: error
+          compression-level: 9
+          retention-days: 30

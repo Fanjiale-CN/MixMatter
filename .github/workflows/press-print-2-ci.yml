@@ -6,7 +6,11 @@ on:
       - "docs/**"
       - "skills/press-print/**"
       - "skills/mixmatter/**"
+      - "plugin.json"
+      - ".codex-plugin/**"
+      - "assets/mixmatter-icon-*.svg"
       - ".github/workflows/press-print-2-ci.yml"
+      - ".github/workflows/mixmatter-openai-package.yml"
   push:
     branches:
       - main
@@ -14,7 +18,11 @@ on:
       - "docs/**"
       - "skills/press-print/**"
       - "skills/mixmatter/**"
+      - "plugin.json"
+      - ".codex-plugin/**"
+      - "assets/mixmatter-icon-*.svg"
       - ".github/workflows/press-print-2-ci.yml"
+      - ".github/workflows/mixmatter-openai-package.yml"
 
 permissions:
   contents: read
