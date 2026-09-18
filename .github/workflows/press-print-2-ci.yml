@@ -1,4 +1,4 @@
-name: Mixmatter Research CI
+name: MixMatter Research CI
 
 on:
   pull_request:
@@ -35,7 +35,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Validate Mixmatter research state
+      - name: Validate MixMatter research state
         shell: bash
         run: |
           test -f docs/MIXMATTER_2_RUNTIME.md
@@ -55,12 +55,12 @@ jobs:
           from pathlib import Path
           root = json.loads(Path("plugin.json").read_text())
           compat = json.loads(Path(".codex-plugin/plugin.json").read_text())
-          assert root["name"] == "press-print"
+          assert root["name"] == "mixmatter"
           assert root["version"] == "2.1.0"
           iface = root["extensions"]["com.openai"]["interface"]
-          assert iface["displayName"] == "Mixmatter"
+          assert iface["displayName"] == "MixMatter"
           assert iface["websiteURL"].endswith("/mixmatter/")
           assert iface["composerIcon"] == "./assets/mixmatter-icon-light.svg"
-          assert compat["name"] == "press-print"
+          assert compat["name"] == "mixmatter"
           PY
           test ! -d apps/mixmatter-chatgpt
