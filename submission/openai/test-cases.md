@@ -1,8 +1,8 @@
-# OpenAI Review Test Cases — Press Print 2.0
+# OpenAI Review Test Cases — Matter 2.0
 
-These cases cover the UI-independent Press Print 2.0 Skill, including autonomous art direction, preservation contracts, visible reconstruction, revision continuity, alternative-from-source behavior, and source-text protection.
+These cases cover the UI-independent Matter 2.0 Skill, including autonomous art direction, preservation contracts, visible reconstruction, revision continuity, alternative-from-source behavior, and source-text protection.
 
-Press Print requires no account, authentication, demo credentials, external MCP server, or private fixture data.
+Matter requires no account, authentication, demo credentials, external MCP server, or private fixture data.
 
 For positive tests, attach any non-sensitive source image the reviewer has permission to use.
 
@@ -12,7 +12,7 @@ For positive tests, attach any non-sensitive source image the reviewer has permi
 
 **User prompt**
 
-`Process this image with Press Print.`
+`Process this image with Matter.`
 
 **Fixture**
 
@@ -20,7 +20,7 @@ Attach a non-sensitive street, city, interior, object, or landscape image.
 
 **Expected behavior**
 
-Press Print should inspect the actual source, identify semantic and structural anchors, determine what may be spent, form one source-specific direction thesis, and reconstruct the image without forcing the user through a custom menu or widget.
+Matter should inspect the actual source, identify semantic and structural anchors, determine what may be spent, form one source-specific direction thesis, and reconstruct the image without forcing the user through a custom menu or widget.
 
 The result should be visibly recomposed rather than the intact photograph with a filter. Material effects should appear only where they support structure or hierarchy.
 
@@ -30,7 +30,7 @@ No new text should be introduced by default.
 
 **User prompt**
 
-`Make this flatter and more graphic with Press Print. Preserve the main subject and defining structure. No new text.`
+`Make this flatter and more graphic with Matter. Preserve the main subject and defining structure. No new text.`
 
 **Fixture**
 
@@ -46,7 +46,7 @@ The subject and identity-bearing structure should survive while the camera compo
 
 **User prompt**
 
-`Reconstruct this portrait with Press Print. Keep the identity intact, simplify the background, and add no new typography.`
+`Reconstruct this portrait with Matter. Keep the identity intact, simplify the background, and add no new typography.`
 
 **Fixture**
 
@@ -54,7 +54,7 @@ Attach a non-sensitive portrait image the reviewer has permission to use.
 
 **Expected behavior**
 
-Press Print should protect face identity, decisive pose/gesture, and important subject relationships while spending redundant background detail first.
+Matter should protect face identity, decisive pose/gesture, and important subject relationships while spending redundant background detail first.
 
 The result should remain recognizable as the same person and source situation while becoming more planar, hierarchically intentional, and designed.
 
@@ -62,7 +62,7 @@ The result should remain recognizable as the same person and source situation wh
 
 **User prompt**
 
-`用 Press Print 重构这张街景。保留场景身份，但不要新增、翻译或双语复制任何文字。`
+`用 Matter 重构这张街景。保留场景身份，但不要新增、翻译或双语复制任何文字。`
 
 **Fixture**
 
@@ -72,13 +72,13 @@ Attach a non-sensitive metro, railway, storefront, or dense commercial-street im
 
 Scene-identifying or identity-critical source text may remain selectively when feasible. Other text may be cropped, fragmented, obscured, halftoned, or reduced into texture.
 
-Press Print must not translate monolingual signs, create bilingual duplicates, invent replacement wording, or generate filler editorial copy. If exact text cannot be reproduced reliably, obscure or simplify it rather than hallucinating it.
+Matter must not translate monolingual signs, create bilingual duplicates, invent replacement wording, or generate filler editorial copy. If exact text cannot be reproduced reliably, obscure or simplify it rather than hallucinating it.
 
 ### P5 — Revision continuity
 
 **Prerequisite**
 
-Create a successful Press Print result from any suitable source.
+Create a successful Matter result from any suitable source.
 
 **User prompt**
 
@@ -94,7 +94,7 @@ The revised result should remain clearly related to the previous successful vers
 
 **Prerequisite**
 
-Create at least one Press Print result from a source image.
+Create at least one Matter result from a source image.
 
 **User prompt**
 
@@ -102,7 +102,7 @@ Create at least one Press Print result from a source image.
 
 **Expected behavior**
 
-Press Print should conceptually return to the original source image rather than recursively transforming the previous generated result.
+Matter should conceptually return to the original source image rather than recursively transforming the previous generated result.
 
 Useful semantic lessons and explicit preservation locks may carry over, but the alternative should form a new direction thesis from the original source.
 
@@ -110,7 +110,7 @@ Useful semantic lessons and explicit preservation locks may carry over, but the 
 
 **User prompt**
 
-`Reconstruct this with Press Print and add only the exact text “地铁”.`
+`Reconstruct this with Matter and add only the exact text “地铁”.`
 
 **Expected behavior**
 
@@ -118,7 +118,7 @@ The result may add `地铁` and no other new copy unless the user separately aut
 
 ## Negative test cases
 
-### N1 — Faithful restoration without Press Print intent
+### N1 — Faithful restoration without Matter intent
 
 **User prompt**
 
@@ -126,7 +126,7 @@ The result may add `地铁` and no other new copy unless the user separately aut
 
 **Expected behavior**
 
-Press Print should not be selected automatically. Faithful archival-style restoration is outside its core reconstruction workflow.
+Matter should not be selected automatically. Faithful archival-style restoration is outside its core reconstruction workflow.
 
 **Safe fallback**
 
@@ -140,7 +140,7 @@ Use the host's normal restoration or enhancement behavior.
 
 **Expected behavior**
 
-Press Print should not be selected automatically because the request asks for a different transformation language rather than Press Print reconstruction.
+Matter should not be selected automatically because the request asks for a different transformation language rather than Matter reconstruction.
 
 ### N3 — From-scratch typography-heavy design
 
@@ -150,9 +150,9 @@ Press Print should not be selected automatically because the request asks for a 
 
 **Expected behavior**
 
-Press Print should not be selected automatically. Its core identity is source-image art direction and reconstruction, not a generic from-scratch typesetting suite.
+Matter should not be selected automatically. Its core identity is source-image art direction and reconstruction, not a generic from-scratch typesetting suite.
 
-If the user explicitly invokes Press Print with a source image, exact supplied wording or explicitly authorized generated copy may be used under the Skill's typography rules.
+If the user explicitly invokes Matter with a source image, exact supplied wording or explicitly authorized generated copy may be used under the Skill's typography rules.
 
 ## 2.0 regression checks
 

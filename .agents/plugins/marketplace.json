@@ -1,7 +1,7 @@
 {
   "name": "press-print-dev",
   "interface": {
-    "displayName": "Press-Print Development"
+    "displayName": "Matter Development"
   },
   "plugins": [
     {

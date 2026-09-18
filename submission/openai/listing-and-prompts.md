@@ -1,10 +1,10 @@
-# Listing Copy and Starter Prompts — Press Print 2.0
+# Listing Copy and Starter Prompts — Matter 2.1
 
 ## Info
 
 ### Plugin name
 
-`Press Print`
+`Matter`
 
 ### Short description
 
@@ -12,7 +12,7 @@
 
 ### Long description
 
-Press Print 2.0 turns a user-supplied image into a source-aware contemporary print reconstruction by combining art-direction judgment with the established Press Print visual language.
+Matter 2.1 turns a user-supplied image into a source-aware contemporary print reconstruction by combining art-direction judgment with the established Matter visual language.
 
 It reads the source before transforming it: identifying semantic anchors, visual hierarchy, structural relations, identity invariants, low-information fields, clutter, and transformation opportunities. It then decides what must be preserved, what may be transformed or removed, and forms one dominant source-specific direction thesis.
 
@@ -24,13 +24,13 @@ The reconstruction prioritizes structural operations such as crop, isolation, su
 >
 > **Preserve semantic identity, not visual completeness.**
 
-Clear requests execute directly. For vague requests, Press Print inspects the source and chooses the strongest source-specific direction by default. It asks for clarification or offers alternatives only when multiple plausible readings would materially change the result.
+Clear requests execute directly. For vague requests, Matter inspects the source and chooses the strongest source-specific direction by default. It asks for clarification or offers alternatives only when multiple plausible readings would materially change the result.
 
-Revisions preserve successful crop, hierarchy, explicit locks, identity-bearing details, and useful material decisions rather than restarting from a random composition. If the user asks for a new alternative from the original source, Press Print returns to that original source unless instructed otherwise.
+Revisions preserve successful crop, hierarchy, explicit locks, identity-bearing details, and useful material decisions rather than restarting from a random composition. If the user asks for a new alternative from the original source, Matter returns to that original source unless instructed otherwise.
 
-Press Print 2.0 adds zero new text by default. Existing source text remains in its original language and may be preserved selectively when it matters to identity. It is not translated or duplicated into a bilingual layout by default. If exact source text cannot be reproduced reliably, it should be obscured, cropped, simplified, or treated as source texture rather than replaced with hallucinated wording. New wording is used only when the user supplies it exactly or explicitly authorizes generated copy.
+Matter 2.1 adds zero new text by default. Existing source text remains in its original language and may be preserved selectively when it matters to identity. It is not translated or duplicated into a bilingual layout by default. If exact source text cannot be reproduced reliably, it should be obscured, cropped, simplified, or treated as source texture rather than replaced with hallucinated wording. New wording is used only when the user supplies it exactly or explicitly authorizes generated copy.
 
-Press Print is designed for existing imagery. It is not a generic style marketplace, broad photo editor, cinematic realism engine, or from-scratch design suite.
+Matter is designed for existing imagery. It is not a generic style marketplace, broad photo editor, cinematic realism engine, or from-scratch design suite.
 
 Typical sources include:
 
@@ -39,7 +39,7 @@ Typical sources include:
 - portraits, people, and animals
 - food, objects, retail environments, and cultural artifacts
 
-Press Print does not operate a separate image-generation backend or require an MCP service. Image understanding and generation/editing are performed by the host platform when available.
+Matter does not operate a separate image-generation backend or require an MCP service. Image understanding and generation/editing are performed by the host platform when available.
 
 ### Category
 
@@ -53,7 +53,7 @@ Press Print does not operate a separate image-generation backend or require an M
 
 ### Version
 
-`2.0.0`
+`2.1.0`
 
 ### Public URLs
 
@@ -64,12 +64,12 @@ Press Print does not operate a separate image-generation backend or require an M
 
 ## Starter prompts
 
-1. `Process this image with Press Print. Preserve what makes the source identifiable and do not add new text.`
-2. `Make this image flatter and more graphic with Press Print. Preserve the main subject and defining structure.`
-3. `Reconstruct this portrait with Press Print. Keep the identity intact, simplify the background, and add no new typography.`
+1. `Process this image with Matter. Preserve what makes the source identifiable and do not add new text.`
+2. `Make this image flatter and more graphic with Matter. Preserve the main subject and defining structure.`
+3. `Reconstruct this portrait with Matter. Keep the identity intact, simplify the background, and add no new typography.`
 
 ## Prompt intent
 
 The three prompts test autonomous default judgment, stronger graphic reconstruction, and portrait preservation.
 
-All starter prompts assume that the user attaches a source image. Press Print uses host image understanding and image generation/editing when those capabilities are available; it does not operate a separate image-generation backend or custom host UI.
+All starter prompts assume that the user attaches a source image. Matter uses host image understanding and image generation/editing when those capabilities are available; it does not operate a separate image-generation backend or custom host UI.

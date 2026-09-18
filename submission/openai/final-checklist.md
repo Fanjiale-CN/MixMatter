@@ -1,10 +1,10 @@
-# Final Submission Readiness Checklist — Press Print 2.0
+# Final Submission Readiness Checklist — Matter 2.0
 
-This checklist covers the UI-independent Skills-only Press Print 2.0 package.
+This checklist covers the UI-independent Skills-only Matter 2.0 package.
 
 ## Repository readiness
 
-- [x] Public product name is `Press Print`.
+- [x] Public product name is `Matter`.
 - [x] Package version is `2.0.0`.
 - [x] Plugin manifest is present at `.codex-plugin/plugin.json`.
 - [x] Packaged Skill is present at `skills/press-print/`.
@@ -16,8 +16,8 @@ This checklist covers the UI-independent Skills-only Press Print 2.0 package.
 - [x] Direction / Structure / Intensity remain available as natural-language product semantics.
 - [x] Revision continuity remains part of the 2.0 behavior.
 - [x] Source-text protection remains strict.
-- [x] Light and dark Press Print logo assets are present.
-- [x] Privacy and Terms describe a Skills-only architecture with no separate Press Print MCP service.
+- [x] Light and dark Matter logo assets are present.
+- [x] Privacy and Terms describe a Skills-only architecture with no separate Matter MCP service.
 
 ## Behavior checks
 
