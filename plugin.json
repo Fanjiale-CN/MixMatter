@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "press-print",
+  "name": "mixmatter",
   "version": "2.1.0",
-  "description": "Mixmatter is a source-aware AI art-direction and visual-reconstruction system for existing imagery.",
+  "description": "MixMatter is a source-aware AI art-direction and visual-reconstruction system for existing imagery.",
   "author": {
     "name": "Fan Jiale / Galok",
     "email": "galokview@outlook.com",
@@ -22,9 +22,9 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "Mixmatter",
+        "displayName": "MixMatter",
         "shortDescription": "AI art direction for existing imagery",
-        "longDescription": "Mixmatter reads a user-supplied image before reconstructing it, identifies what must survive, forms a source-specific art-direction thesis, and rebuilds the image through flattened editorial composition, source-derived cropping and scale shifts, selective photographic retention, visible halftone and duotone, graphic fields, controlled tactile collage, and modernist hierarchy. Clear requests execute directly; vague requests are handled with autonomous judgment unless real ambiguity requires clarification. Revisions preserve successful decisions rather than restarting from a random composition. Mixmatter adds no new typography by default, never invents or translates source text, and permits only exact wording explicitly supplied by the user unless generated copy is explicitly authorized.",
+        "longDescription": "MixMatter reads a user-supplied image before reconstructing it, identifies what must survive, forms a source-specific art-direction thesis, and rebuilds the image through flattened editorial composition, source-derived cropping and scale shifts, selective photographic retention, visible halftone and duotone, graphic fields, controlled tactile collage, and modernist hierarchy. Clear requests execute directly; vague requests are handled with autonomous judgment unless real ambiguity requires clarification. Revisions preserve successful decisions rather than restarting from a random composition. MixMatter adds no new typography by default, never invents or translates source text, and permits only exact wording explicitly supplied by the user unless generated copy is explicitly authorized.",
         "developerName": "Fan Jiale",
         "category": "Creativity",
         "capabilities": [
@@ -35,9 +35,9 @@
         "privacyPolicyURL": "https://www.galok.me/mixmatter/privacy/",
         "termsOfServiceURL": "https://www.galok.me/mixmatter/terms/",
         "defaultPrompt": [
-          "Process this image with Mixmatter. Preserve what makes the source identifiable and do not add new text.",
-          "Make this image flatter and more graphic with Mixmatter. Preserve the main subject and defining structure.",
-          "Reconstruct this portrait with Mixmatter. Keep the identity intact, simplify the background, and add no new typography."
+          "Process this image with MixMatter. Preserve what makes the source identifiable and do not add new text.",
+          "Make this image flatter and more graphic with MixMatter. Preserve the main subject and defining structure.",
+          "Reconstruct this portrait with MixMatter. Keep the identity intact, simplify the background, and add no new typography."
         ],
         "brandColor": "#126BFF",
         "composerIcon": "./assets/mixmatter-icon-light.svg",

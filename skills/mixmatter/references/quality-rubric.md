@@ -1,6 +1,6 @@
-# Mixmatter v1.0.2 Quality Rubric
+# MixMatter v1.0.2 Quality Rubric
 
-Use this rubric to evaluate generated Mixmatter results consistently across models and source categories.
+Use this rubric to evaluate generated MixMatter results consistently across models and source categories.
 
 ## Scoring
 
@@ -35,7 +35,7 @@ Does the image have clear dominant, secondary, and quiet zones without relying o
 
 #### Hierarchy stabilization checks
 
-When the source hierarchy is diffuse, repetitive, sparse, or ambiguous, evaluate whether Mixmatter actively formed a stronger hierarchy rather than inheriting the weakness.
+When the source hierarchy is diffuse, repetitive, sparse, or ambiguous, evaluate whether MixMatter actively formed a stronger hierarchy rather than inheriting the weakness.
 
 For repeated or highly similar subjects:
 - one dominant anchor or dominant cluster should usually emerge,
@@ -71,11 +71,11 @@ Do graphic interventions grow from the source rather than from generic poster ha
 
 ## Interpretation
 
-- **90–100**: exemplary Mixmatter
+- **90–100**: exemplary MixMatter
 - **80–89**: strong and publishable
 - **70–79**: directionally correct but needs refinement
 - **60–69**: style cues present, system not fully understood
-- **Below 60**: failed Mixmatter transformation
+- **Below 60**: failed MixMatter transformation
 
 ## Source text evaluation
 
@@ -129,7 +129,7 @@ Any of the following should trigger rejection or regeneration even if the numeri
 When comparing multiple image models:
 
 1. Use the same source image.
-2. Use the same Mixmatter prompt version.
+2. Use the same MixMatter prompt version.
 3. Keep aspect ratio and generation intent constant.
 4. Score each output independently before comparing them side by side.
 5. For sources containing text, record whether the model retained, obscured, hallucinated, translated, duplicated, or promoted source text.

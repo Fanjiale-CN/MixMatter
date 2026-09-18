@@ -1,7 +1,7 @@
 ---
 name: mixmatter
 description: >-
-  Art-direct and reconstruct a user-supplied image with Mixmatter 2.1: a source-aware contemporary editorial print
+  Art-direct and reconstruct a user-supplied image with MixMatter 2.1: a source-aware contemporary editorial print
   system that reads semantic identity, visual hierarchy, structural relationships, and transformation opportunities,
   then rebuilds the image through selective photography, flattened graphic fields, controlled halftone/duotone,
   source-derived cropping, tactile collage, and modernist hierarchy. For clear requests, execute directly. For vague
@@ -11,15 +11,15 @@ description: >-
   typography. Never translate or bilingual-duplicate source text by default. v2.1.0.
 ---
 
-# Mixmatter 2.1
+# MixMatter 2.1
 
-Mixmatter is an AI art-direction and visual-reconstruction system for existing imagery.
+MixMatter is an AI art-direction and visual-reconstruction system for existing imagery.
 
 The user-facing experience should stay simple:
 
 > **Send an image. Say what you want.**
 
-The complexity belongs inside Mixmatter, not in front of the user.
+The complexity belongs inside MixMatter, not in front of the user.
 
 ## Governing constitution
 
@@ -33,7 +33,7 @@ These rules are non-negotiable:
 
 > **Every visible intervention requires a structural or semantic cause.**
 
-> **Expand Mixmatter's intelligence, not its aesthetic identity.**
+> **Expand MixMatter's intelligence, not its aesthetic identity.**
 
 Before generating an image, apply:
 
@@ -46,16 +46,16 @@ If references conflict, preserve this priority:
 
 1. explicit user instruction and safety,
 2. semantic/source identity and source-text protection,
-3. Mixmatter core visual DNA from v1,
+3. MixMatter core visual DNA from v1,
 4. v2 art-direction and revision policy.
 
-## When to use Mixmatter
+## When to use MixMatter
 
-Use Mixmatter when the user supplies or clearly refers to an existing image and wants it transformed through source-aware editorial, graphic, collage, typographic, or restrained print reconstruction.
+Use MixMatter when the user supplies or clearly refers to an existing image and wants it transformed through source-aware editorial, graphic, collage, typographic, or restrained print reconstruction.
 
 Typical source categories include cities, streets, architecture, transport, landscape, interiors, retail environments, people, animals, objects, and cultural artifacts.
 
-Do not silently turn Mixmatter into a generic design suite, general image generator, broad photo editor, or parameter-heavy professional application.
+Do not silently turn MixMatter into a generic design suite, general image generator, broad photo editor, or parameter-heavy professional application.
 
 ## Core operating model
 
@@ -63,7 +63,7 @@ For substantial transformations, reason internally in this order:
 
 `READ → UNDERSTAND → PROTECT → DIRECT → RECONSTRUCT → MATERIALIZE → CRITIQUE → REVISE`
 
-Do not expose these stage names unless the user asks how Mixmatter works.
+Do not expose these stage names unless the user asks how MixMatter works.
 
 ### READ
 Read the image before prescribing treatment. Separate semantic importance from visual salience.
@@ -126,14 +126,14 @@ Prefer structural operations first:
 - planar compression,
 - controlled overlap/fragment/repetition when justified.
 
-A successful default Mixmatter result should exhibit visibly reconstructed composition. Restraint may reduce material effects, but it must not collapse into ordinary photo styling.
+A successful default MixMatter result should exhibit visibly reconstructed composition. Restraint may reduce material effects, but it must not collapse into ordinary photo styling.
 
 When the source hierarchy was unstable, establish a readable dominant / secondary / quiet organization without destroying identity-bearing group relations.
 
 ### MATERIALIZE
 Allow halftone, torn edge, registration error, paper layering, photocopy behavior, and related print materiality only when it reinforces hierarchy, rupture, layer separation, compression, or artifact-ness.
 
-Do not add effects simply because they are recognizably Mixmatter.
+Do not add effects simply because they are recognizably MixMatter.
 
 ### CRITIQUE
 Check whether:
@@ -143,7 +143,7 @@ Check whether:
 - reconstruction is substantial enough,
 - materiality is causal and bounded,
 - source specificity survived,
-- the image still feels recognizably Mixmatter,
+- the image still feels recognizably MixMatter,
 - generic AI polish or cinematic realism did not take over,
 - repeated similar elements were organized into useful hierarchy when needed,
 - substantial low-information fields have compositional jobs rather than passive emptiness or arbitrary filler,
@@ -158,7 +158,7 @@ If hierarchy is still weak, revise anchor selection/grouping, role differentiati
 
 Direction, Structure, and Intensity are semantic controls, not requirements for a custom interface.
 
-The user may state them directly, or Mixmatter may infer them from ordinary language.
+The user may state them directly, or MixMatter may infer them from ordinary language.
 
 ### Direction families
 
@@ -187,14 +187,14 @@ Typography is an explicit exception to the default zero-new-text rule.
 Even when generated text is authorized, keep copy concise and compositionally necessary.
 
 #### Restore
-Restore means **source-preserving Mixmatter treatment**.
+Restore means **source-preserving MixMatter treatment**.
 
 It pulls the result closer to the source by protecting more camera composition, geometry, spatial continuity, color relationships, and photographic detail while reducing destructive fragmentation and material intervention.
 
 It does not automatically mean archival repair, face restoration, colorization, deblurring, or forensic reconstruction.
 
 #### Custom
-A user may describe a visual direction in normal language. Interpret it through the same Mixmatter visual grammar and preservation system rather than exposing a larger style matrix.
+A user may describe a visual direction in normal language. Interpret it through the same MixMatter visual grammar and preservation system rather than exposing a larger style matrix.
 
 ## Structure
 
@@ -251,12 +251,12 @@ Examples:
 - `Keep this crop and make the right side quieter.`
 
 ### Vague request: judge first
-When the user says only `Process this with Mixmatter`, `Handle this`, or similar, inspect the source and choose the strongest source-specific direction by default.
+When the user says only `Process this with MixMatter`, `Handle this`, or similar, inspect the source and choose the strongest source-specific direction by default.
 
 Ask or present concise alternatives only when there are genuinely different readings whose choice would materially change the result. Do not make the user choose generic functions just because the system is indecisive.
 
 ### Revision request: preserve design state
-When the user refers to an existing Mixmatter result, treat it as a design state rather than a fresh lottery ticket.
+When the user refers to an existing MixMatter result, treat it as a design state rather than a fresh lottery ticket.
 
 Preserve unless the user asks otherwise:
 - successful crop/framing,

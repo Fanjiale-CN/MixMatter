@@ -1,25 +1,25 @@
-# OpenAI Plugin Submission Materials — Mixmatter 2.1
+# OpenAI Plugin Submission Materials — MixMatter 2.1
 
-This directory contains review-facing materials for the UI-independent Mixmatter 2.1 Plugin package.
+This directory contains review-facing materials for the UI-independent MixMatter 2.1 Plugin package.
 
 ## Architecture
 
 **Skills-only / no MCP runtime**
 
-Mixmatter 2.1 does not require:
+MixMatter 2.1 does not require:
 
 - an MCP server,
 - a custom ChatGPT host UI,
 - authentication,
 - an external account,
-- a separate Mixmatter image-generation backend,
+- a separate MixMatter image-generation backend,
 - reviewer credentials or private fixture data.
 
 The Plugin supplies art-direction and visual-reconstruction instructions. The host platform performs image understanding and image generation/editing when those capabilities are available.
 
 ## Plugin identity
 
-- Public name: `Mixmatter`
+- Public name: `MixMatter`
 - Package name: `mixmatter`
 - Publisher brand: `Galok`
 - Developer identity: `Fan Jiale`
@@ -36,9 +36,6 @@ Relevant files:
 
 ```text
 plugin.json
-.codex-plugin/
-└── plugin.json
-
 skills/
 └── mixmatter/
     ├── SKILL.md
@@ -52,11 +49,11 @@ assets/
 └── mixmatter-icon-dark.svg
 ```
 
-Do not package the abandoned `apps/mixmatter-chatgpt/` UI layer. It is not part of Mixmatter 2.1.
+Do not package the abandoned `apps/mixmatter-chatgpt/` UI layer. It is not part of MixMatter 2.1.
 
 ## Canonical behavior
 
-Mixmatter 2.1 adds a research-backed decision layer around the established v1 visual language:
+MixMatter 2.1 adds a research-backed decision layer around the established v1 visual language:
 
 `READ → UNDERSTAND → PROTECT → DIRECT → RECONSTRUCT → MATERIALIZE → CRITIQUE → REVISE`
 
@@ -89,4 +86,4 @@ Fan Jiale is the individual developer; Galok is the public publishing brand.
 
 ## Reviewer setup
 
-For positive tests, reviewers can attach any non-sensitive image they have permission to use. No Mixmatter account, API key, demo credentials, MFA, private-network access, or fixture database is required.
+For positive tests, reviewers can attach any non-sensitive image they have permission to use. No MixMatter account, API key, demo credentials, MFA, private-network access, or fixture database is required.
