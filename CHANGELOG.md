@@ -1,5 +1,21 @@
 # Changelog
 
+## 2.1.0 — 2026-09-18
+
+### Changed
+
+- rebranded the public product from **Press Print / Press-Print** to **Matter**
+- retained the technical repository, package, Skill, and web slugs as `press-print` for compatibility
+- replaced the previous offset-sheet badge with a layered material icon built from source, photographic, halftone, tape, and marker elements
+- added coordinated light and dark icon variants with identical geometry and corrected depth ordering
+- shifted the active identity to a cool blue / cyan / lavender material palette
+- updated plugin-facing identity and public documentation while keeping the 2.0 reconstruction behavior intact
+
+### Added
+
+- `assets/matter-icon-light.svg`
+- `assets/matter-icon-dark.svg`
+
 ## 2.0.0 — 2026-09-11
 
 ### Added

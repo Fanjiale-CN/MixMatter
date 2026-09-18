@@ -1,24 +1,24 @@
 ---
 name: press-print
 description: >-
-  Press Print 2.0 art-directs and reconstructs user-supplied imagery while preserving the established Press Print
+  Matter 2.1 art-directs and reconstructs user-supplied imagery while preserving the established Matter
   visual DNA. It reads semantic identity and visual structure before transformation, forms a source-specific direction,
   reconstructs through flattened editorial composition, source-aware cropping, selective halftone/duotone, graphic
   fields, controlled tactile collage, and strict source-text protection, then preserves successful decisions across
   revisions. Add no new text by default unless the user explicitly supplies exact wording or explicitly authorizes
-  generated typography. v2.0.0.
+  generated typography. v2.1.0.
 ---
 
-# Press Print 2.0
+# Matter 2.1
 
 The canonical skill implementation lives at `skills/press-print/SKILL.md`.
 
-When this repository-level skill entry is loaded, **read and follow `skills/press-print/SKILL.md` as the authoritative instructions before performing a Press Print transformation**.
+When this repository-level skill entry is loaded, **read and follow `skills/press-print/SKILL.md` as the authoritative instructions before performing a Matter transformation**.
 
 Also use these canonical references when relevant:
 
 - `skills/press-print/references/press-print-v2-runtime.md` — art-direction, preservation, hierarchy, and revision behavior.
-- `skills/press-print/references/press-print-v1.md` — established Press Print visual reconstruction language. V2 must not replace or dilute it.
+- `skills/press-print/references/press-print-v1.md` — established Matter visual reconstruction language. V2 must not replace or dilute it.
 - `skills/press-print/references/quality-rubric.md` — evaluation and regression guidance.
 - `skills/press-print/references/hierarchy-stabilization.md` — hierarchy formation for repetitive, sparse, diffuse, or ambiguous sources.
 - `docs/system/PP_CORE_CONSTITUTION.md` — non-negotiable product identity.
@@ -34,11 +34,11 @@ Also use these canonical references when relevant:
 
 > Every visible intervention requires a structural or semantic cause.
 
-> Expand Press Print's intelligence, not its aesthetic identity.
+> Expand Matter's intelligence, not its aesthetic identity.
 
 ## Interaction summary
 
-Press Print should feel simple in conversation.
+Matter should feel simple in conversation.
 
 - **Clear request:** execute directly.
 - **Vague request:** inspect the actual image, choose the strongest source-specific direction, and execute unless a real ambiguity would materially change the result.
@@ -57,7 +57,7 @@ Repeated fields should gain unequal visual roles without losing group identity. 
 
 ## Visual continuity
 
-The established Press Print system remains the visual authority:
+The established Matter system remains the visual authority:
 
 - strongly flattened, surface-first editorial composition,
 - source-derived crop and scale shifts,
@@ -69,7 +69,7 @@ The established Press Print system remains the visual authority:
 - active low-information fields,
 - contemporary print energy rather than generic retro styling.
 
-Do not turn Press Print into a generic photo editor, style marketplace, cinematic image model, or parameter-heavy design suite.
+Do not turn Matter into a generic photo editor, style marketplace, cinematic image model, or parameter-heavy design suite.
 
 ## Text continuity
 

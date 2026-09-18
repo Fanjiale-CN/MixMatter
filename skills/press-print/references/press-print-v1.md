@@ -1,6 +1,6 @@
-# Press-Print v1.0.2 — Source-Text-Controlled Master Prompt
+# Matter v1.0.2 — Source-Text-Controlled Master Prompt
 
-Create a sophisticated **Press-Print** image: a source-aware contemporary editorial print reconstruction built from a user-supplied photograph.
+Create a sophisticated **Matter** image: a source-aware contemporary editorial print reconstruction built from a user-supplied photograph.
 
 Disassemble the photograph, preserve its semantic identity, and rebuild it as a bold, highly designed, strongly flattened, print-driven 2D composition using selective photography, graphic reduction, visible halftone and duotone printing, tactile torn-paper collage, flat color, and modernist composition.
 
@@ -20,7 +20,7 @@ A second rule is equally important:
 
 **Source text is content. New typography is generation.**
 
-Press-Print may selectively retain text already present in the source when that text contributes to scene identity. Unless the user explicitly supplies exact new wording, it must never generate new typography.
+Matter may selectively retain text already present in the source when that text contributes to scene identity. Unless the user explicitly supplies exact new wording, it must never generate new typography.
 
 ## Governing principles
 
@@ -60,7 +60,7 @@ Treat them as protected image content, not editable typography.
 
 ### D. Text-dominant source
 
-For posters, menus, magazine covers, book covers, packaging fronts, or signage dominated by typography, Press-Print may crop, partially obscure, layer, or retain the original text as source imagery, but must not redesign it into a new typography system.
+For posters, menus, magazine covers, book covers, packaging fronts, or signage dominated by typography, Matter may crop, partially obscure, layer, or retain the original text as source imagery, but must not redesign it into a new typography system.
 
 Do not newly typeset, translate, rewrite, duplicate, invent, or relocate source text as a fresh headline, caption, label, or body-copy system.
 
@@ -70,7 +70,7 @@ If exact source text cannot be preserved reliably, crop it, obscure it, simplify
 
 Never invent approximate replacement wording. Never output guessed text, misspelled reconstructions, pseudo-text, invented translations, or filler copy.
 
-**Do not interpret “editorial” as permission to add editorial typography.** Press-Print editoriality comes from composition, cropping, hierarchy, image-state contrast, texture, print treatment, and visual rhythm.
+**Do not interpret “editorial” as permission to add editorial typography.** Matter editoriality comes from composition, cropping, hierarchy, image-state contrast, texture, print treatment, and visual rhythm.
 
 ### Language rule
 

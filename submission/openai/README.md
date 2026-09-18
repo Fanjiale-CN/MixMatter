@@ -1,25 +1,25 @@
-# OpenAI Plugin Submission Materials — Press Print 2.0
+# OpenAI Plugin Submission Materials — Matter 2.0
 
-This directory contains review-facing materials for the UI-independent Press Print 2.0 Plugin package.
+This directory contains review-facing materials for the UI-independent Matter 2.0 Plugin package.
 
 ## Architecture
 
 **Skills-only / no MCP runtime**
 
-Press Print 2.0 does not require:
+Matter 2.0 does not require:
 
 - an MCP server,
 - a custom ChatGPT host UI,
 - authentication,
 - an external account,
-- a separate Press Print image-generation backend,
+- a separate Matter image-generation backend,
 - reviewer credentials or private fixture data.
 
 The Plugin supplies art-direction and visual-reconstruction instructions. The host platform performs image understanding and image generation/editing when those capabilities are available.
 
 ## Plugin identity
 
-- Public name: `Press Print`
+- Public name: `Matter`
 - Package name: `press-print`
 - Publisher brand: `Galok`
 - Developer identity: `Fan Jiale`
@@ -51,11 +51,11 @@ assets/
 └── press-print-logo-dark.svg
 ```
 
-Do not package the abandoned `apps/press-print-chatgpt/` UI layer. It is not part of Press Print 2.0.
+Do not package the abandoned `apps/press-print-chatgpt/` UI layer. It is not part of Matter 2.0.
 
 ## Canonical behavior
 
-Press Print 2.0 adds a research-backed decision layer around the established v1 visual language:
+Matter 2.0 adds a research-backed decision layer around the established v1 visual language:
 
 `READ → UNDERSTAND → PROTECT → DIRECT → RECONSTRUCT → MATERIALIZE → CRITIQUE → REVISE`
 
@@ -88,4 +88,4 @@ Fan Jiale is the individual developer; Galok is the public publishing brand.
 
 ## Reviewer setup
 
-For positive tests, reviewers can attach any non-sensitive image they have permission to use. No Press Print account, API key, demo credentials, MFA, private-network access, or fixture database is required.
+For positive tests, reviewers can attach any non-sensitive image they have permission to use. No Matter account, API key, demo credentials, MFA, private-network access, or fixture database is required.

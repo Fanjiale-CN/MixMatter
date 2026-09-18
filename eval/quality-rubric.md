@@ -1,6 +1,6 @@
-# Press-Print v1.0.2 Quality Rubric
+# Matter v1.0.2 Quality Rubric
 
-Use this rubric to evaluate generated Press-Print results consistently across models and source categories.
+Use this rubric to evaluate generated Matter results consistently across models and source categories.
 
 ## Scoring
 
@@ -53,11 +53,11 @@ Do graphic interventions grow from the source rather than from generic poster ha
 
 ## Interpretation
 
-- **90–100**: exemplary Press-Print
+- **90–100**: exemplary Matter
 - **80–89**: strong and publishable
 - **70–79**: directionally correct but needs refinement
 - **60–69**: style cues present, system not fully understood
-- **Below 60**: failed Press-Print transformation
+- **Below 60**: failed Matter transformation
 
 ## Source text evaluation
 
@@ -106,7 +106,7 @@ Any of the following should trigger rejection or regeneration even if the numeri
 When comparing multiple image models:
 
 1. Use the same source image.
-2. Use the same Press-Print prompt version.
+2. Use the same Matter prompt version.
 3. Keep aspect ratio and generation intent constant.
 4. Score each output independently before comparing them side by side.
 5. For sources containing text, record whether the model retained, obscured, hallucinated, translated, duplicated, or promoted source text.

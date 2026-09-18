@@ -1,8 +1,17 @@
-# Press Print
+# Matter
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/matter-icon-dark.svg">
+    <img src="./assets/matter-icon-light.svg" alt="Matter app icon" width="184">
+  </picture>
+</p>
 
 **AI art direction and source-aware visual reconstruction for existing imagery.**
 
-Press Print is an open-source **Agent Skill / SKILL.md** that reads a source image, decides what must survive, forms a source-specific art-direction thesis, and reconstructs the image into a contemporary print-driven composition.
+Matter treats photographs as visual matter: something to read, protect, cut, flatten, layer, and rebuild with intent.
+
+Matter is an open-source **Agent Skill / SKILL.md** that reads a source image, decides what must survive, forms a source-specific art-direction thesis, and reconstructs the image into a contemporary print-driven composition.
 
 > **Photography is source material, not sacred material.**
 >
@@ -10,7 +19,7 @@ Press Print is an open-source **Agent Skill / SKILL.md** that reads a source ima
 >
 > **Preserve semantic identity, not visual completeness.**
 
-Press Print 2.0 keeps the visual DNA established in v1 while adding stronger source understanding, preservation logic, art-direction judgment, critique, and revision continuity. It remains a **Skills-only** system. There is no required MCP server or custom ChatGPT host UI.
+Matter 2.1 keeps the visual DNA established in v1 while adding stronger source understanding, preservation logic, art-direction judgment, critique, and revision continuity. It remains a **Skills-only** system. There is no required MCP server or custom ChatGPT host UI.
 
 ## Install
 
@@ -23,7 +32,9 @@ Repository: `Fanjiale-CN/press-print`
 Skill: `press-print`  
 Entry point: `SKILL.md`
 
-## How Press Print 2.0 works
+> **Compatibility:** the repository, package, and Skill identifiers remain `press-print` so existing installs and links keep working. The public product name is **Matter**.
+
+## How Matter 2.1 works
 
 The internal reasoning sequence is:
 
@@ -78,7 +89,7 @@ Preserve successful decisions and fix the cause of a failure rather than re-rand
 
 ## Natural-language controls
 
-Press Print retains three useful semantic controls without requiring a custom UI:
+Matter retains three useful semantic controls without requiring a custom UI:
 
 - **Direction**: the dominant reconstruction thesis
 - **Structure**: how much original compositional continuity may be spent
@@ -88,7 +99,7 @@ Users may state these explicitly or simply describe what they want in normal lan
 
 ## Core visual identity
 
-Press Print generally prefers:
+Matter generally prefers:
 
 - flat, surface-first composition
 - compressed or interrupted depth
@@ -116,11 +127,11 @@ It avoids:
 
 ## Source text policy
 
-Press Print adds **zero new text by default**.
+Matter adds **zero new text by default**.
 
 If source text already exists, it may be preserved, cropped, obscured, fragmented, reduced, or treated as source imagery. Identity-critical wording should be preserved faithfully when feasible.
 
-Press Print must not:
+Matter must not:
 
 - invent approximate replacement wording
 - translate source text by default
@@ -132,7 +143,7 @@ If the user supplies exact wording, use only that wording unless they explicitly
 
 ## Research-derived system
 
-Press Print 2.0 is grounded in seven canonical system documents:
+Matter 2.1 is grounded in seven canonical system documents:
 
 1. [`docs/PRESS_PRINT_2_RUNTIME.md`](docs/PRESS_PRINT_2_RUNTIME.md)
 2. [`docs/system/PP_ART_DIRECTION_POLICY.md`](docs/system/PP_ART_DIRECTION_POLICY.md)
@@ -164,7 +175,7 @@ Use:
 - [`eval/quality-rubric.md`](eval/quality-rubric.md)
 - [`docs/system/PP_REGRESSION_BENCHMARK.md`](docs/system/PP_REGRESSION_BENCHMARK.md)
 
-The 2.0 benchmark evaluates semantic preservation, Press Print identity, reconstruction strength, editorial hierarchy, planar coherence, material coherence, source specificity, and common drift penalties.
+The 2.0 benchmark evaluates semantic preservation, Matter identity, reconstruction strength, editorial hierarchy, planar coherence, material coherence, source specificity, and common drift penalties.
 
 ## Repository structure
 
@@ -193,7 +204,7 @@ press-print/
 
 ## Current status
 
-**Version:** 2.0.0  
+**Version:** 2.1.0  
 **Architecture:** Skills-only, UI-independent  
 **Status:** Research-integrated release candidate
 
@@ -203,6 +214,6 @@ Created by **Fan Jiale / Galok**.
 
 ## License
 
-MIT for the Press Print skill text, prompt system, documentation, and related project materials. See `LICENSE`.
+MIT for the Matter skill text, prompt system, documentation, and related project materials. See `LICENSE`.
 
 Showcase image rights may depend on their original provenance. See [`examples/README.md`](examples/README.md).

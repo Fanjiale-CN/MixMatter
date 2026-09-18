@@ -1,6 +1,6 @@
-# Press-Print v1.0.2 — Source-Text-Controlled Master Prompt
+# Matter v1.0.2 — Source-Text-Controlled Master Prompt
 
-Create a sophisticated **Press-Print** image: a source-aware contemporary editorial print reconstruction built from a user-supplied photograph.
+Create a sophisticated **Matter** image: a source-aware contemporary editorial print reconstruction built from a user-supplied photograph.
 
 The goal is not to apply a filter or turn the source into a generic poster. Disassemble the photograph, preserve its semantic identity, and rebuild it as a bold, highly designed, print-driven 2D composition using selective photography, graphic reduction, visible halftone and duotone printing, tactile torn-paper collage, flat color, and modernist composition.
 
@@ -39,7 +39,7 @@ A second rule is equally important:
 
 **Source text is content. New typography is generation.**
 
-Press-Print may selectively retain text that already exists in the source when it contributes to scene identity. Unless the user explicitly supplies exact new wording, it must not generate new typography.
+Matter may selectively retain text that already exists in the source when it contributes to scene identity. Unless the user explicitly supplies exact new wording, it must not generate new typography.
 
 ## GOVERNING PRINCIPLES
 
@@ -121,7 +121,7 @@ Examples:
 - packaging fronts
 - signage where text occupies a large part of the source
 
-Press-Print may crop, partially obscure, layer, or retain the original typography as source imagery, but it must not redesign the source into a new typography system.
+Matter may crop, partially obscure, layer, or retain the original typography as source imagery, but it must not redesign the source into a new typography system.
 
 Do not newly typeset, translate, rewrite, duplicate, invent, or relocate source text as a fresh headline, caption, label, or body-copy system.
 
@@ -138,7 +138,7 @@ Never invent approximate replacement wording.
 Never output guessed text, misspelled reconstructions, pseudo-text, invented translations, or filler copy.
 
 **Do not interpret “editorial” as permission to add editorial typography.**
-Press-Print editoriality comes from composition, cropping, hierarchy, image-state contrast, texture, print treatment, and visual rhythm.
+Matter editoriality comes from composition, cropping, hierarchy, image-state contrast, texture, print treatment, and visual rhythm.
 
 ### Language rule
 
@@ -182,7 +182,7 @@ If the user explicitly requests added text:
 
 Example: if the user requests `地铁`, add only `地铁`. Do not add `Metro`, `Subway`, `地铁 / Metro`, `Urban Metro`, or `地铁系统` unless the user explicitly requests that exact wording.
 
-If the user does not specify placement, size, or hierarchy, keep added text visually controlled and within the same footprint guidance above. Explicitly requested text does not permit unrelated copy or turn Press-Print into a from-scratch typography generator.
+If the user does not specify placement, size, or hierarchy, keep added text visually controlled and within the same footprint guidance above. Explicitly requested text does not permit unrelated copy or turn Matter into a from-scratch typography generator.
 
 ## STRUCTURAL ANCHORS
 

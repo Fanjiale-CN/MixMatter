@@ -1,4 +1,4 @@
-# Press Print Privacy Policy
+# Matter Privacy Policy
 
 **Effective date: September 11, 2026**  
 **Publisher: Galok / Fan Jiale**  
@@ -6,19 +6,19 @@
 
 ## 1. Scope
 
-This Privacy Policy describes the data practices of the Press Print publisher. It applies to Press Print's public product pages, documentation, and use as a Skills-only Plugin or Agent Skill in compatible host environments such as ChatGPT or Codex.
+This Privacy Policy describes the data practices of the Matter publisher. It applies to Matter's public product pages, documentation, and use as a Skills-only Plugin or Agent Skill in compatible host environments such as ChatGPT or Codex.
 
-This policy describes only what the Press Print publisher does. It does not replace the privacy policy of the host platform a user chooses.
+This policy describes only what the Matter publisher does. It does not replace the privacy policy of the host platform a user chooses.
 
 ## 2. Publisher and product structure
 
-Press Print is published by **Fan Jiale**, an individual developer, under the **Galok** brand. Galok is a personal publishing brand and not a separate legal entity.
+Matter is published by **Fan Jiale**, an individual developer, under the **Galok** brand. Galok is a personal publishing brand and not a separate legal entity.
 
-Press Print 2.0 is a Skills-only, UI-independent system. It does not operate a separate Press Print account system, user database, MCP service, custom ChatGPT host UI, or standalone Press Print image-generation backend.
+Matter 2.0 is a Skills-only, UI-independent system. It does not operate a separate Matter account system, user database, MCP service, custom ChatGPT host UI, or standalone Matter image-generation backend.
 
 ## 3. Information the publisher independently collects
 
-Through the normal Press Print Skill workflow, the publisher does **not** independently receive or store copies of:
+Through the normal Matter Skill workflow, the publisher does **not** independently receive or store copies of:
 
 - source photographs or images
 - prompts or conversation content
@@ -30,7 +30,7 @@ Through the normal Press Print Skill workflow, the publisher does **not** indepe
 - precise location
 - health or financial information
 
-Press Print does not require those categories of information to perform its normal reconstruction workflow.
+Matter does not require those categories of information to perform its normal reconstruction workflow.
 
 The publisher may receive limited information through the following separate public or support channels:
 
@@ -46,19 +46,19 @@ The publisher does not use these channels to build advertising profiles, sell pe
 
 Source images, prompts, conversation content, and generated images are processed by the host platform selected by the user under that platform's own privacy policy, terms, and retention practices.
 
-Those materials are not transmitted to a separate Press Print server through the Skill workflow.
+Those materials are not transmitted to a separate Matter server through the Skill workflow.
 
-Press Print does not control how a host platform stores, retains, trains on, exports, deletes, or otherwise processes host-platform data. Users should review and use the privacy and account controls offered by the host platform.
+Matter does not control how a host platform stores, retains, trains on, exports, deletes, or otherwise processes host-platform data. Users should review and use the privacy and account controls offered by the host platform.
 
 ## 5. Website access data
 
-Press Print's public website may rely on third-party hosting, CDN, DNS, or security infrastructure. Those providers may process routine technical logs for security, performance, troubleshooting, abuse prevention, or network operation.
+Matter's public website may rely on third-party hosting, CDN, DNS, or security infrastructure. Those providers may process routine technical logs for security, performance, troubleshooting, abuse prevention, or network operation.
 
-The publisher does not intentionally use the Press Print website for advertising profiling or cross-site tracking.
+The publisher does not intentionally use the Matter website for advertising profiling or cross-site tracking.
 
 ## 6. Cookies and analytics
 
-Unless otherwise disclosed on the relevant public page, Press Print does not intentionally set advertising-targeting cookies.
+Unless otherwise disclosed on the relevant public page, Matter does not intentionally set advertising-targeting cookies.
 
 If analytics, error monitoring, or similar services are introduced in the future, this policy will be updated where the change materially affects data practices.
 
@@ -72,7 +72,7 @@ For data the publisher may receive outside the host-platform Skill workflow, cat
 
 Host-platform processing is separate: the user provides source images, prompts, and conversation content directly to the host platform, which processes them under its own policies.
 
-Press Print does not sell personal data, does not sell user content to advertisers, and does not use data brokers.
+Matter does not sell personal data, does not sell user content to advertisers, and does not use data brokers.
 
 ## 8. Retention
 
@@ -94,11 +94,11 @@ Rights in generated outputs may also be affected by the host platform's terms, a
 
 ## 10. User controls and requests
 
-Users can stop providing new content to Press Print by not installing, enabling, or invoking it.
+Users can stop providing new content to Matter by not installing, enabling, or invoking it.
 
-Deletion, export, training, and similar controls for host-platform chats, uploaded images, and generated outputs are managed through the host platform, not through a separate Press Print account.
+Deletion, export, training, and similar controls for host-platform chats, uploaded images, and generated outputs are managed through the host platform, not through a separate Matter account.
 
-Users should avoid including unnecessary sensitive personal information in prompts or uploaded images because the Press Print workflow does not require it.
+Users should avoid including unnecessary sensitive personal information in prompts or uploaded images because the Matter workflow does not require it.
 
 Do not post private photographs, credentials, or other sensitive information to public GitHub Issues.
 
@@ -106,35 +106,35 @@ To request deletion of information sent directly to the publisher by email, cont
 
 ## 11. Children's privacy
 
-Press Print is not directed specifically to children.
+Matter is not directed specifically to children.
 
 Users must comply with applicable age requirements in their jurisdiction and with the age policies of the host platform they use.
 
 ## 12. Sale of personal data and advertising
 
-Press Print does not sell users' personal data and does not sell user content to advertisers.
+Matter does not sell users' personal data and does not sell user content to advertisers.
 
 The current Skills-only version does not operate an independent advertising system.
 
 ## 13. Security
 
-Press Print uses a data-minimizing architecture that avoids unnecessary independent collection of user information.
+Matter uses a data-minimizing architecture that avoids unnecessary independent collection of user information.
 
 No online system can guarantee absolute security. Security measures for host-platform data and website infrastructure are controlled by the relevant service providers.
 
 ## 14. International use
 
-Press Print may be used through host platforms and website infrastructure that operate in more than one country.
+Matter may be used through host platforms and website infrastructure that operate in more than one country.
 
 The publisher does not operate a separate cross-border transfer of user photographs or prompts because those materials are not sent to the publisher through the Skill workflow.
 
 Routine technical website logs may be processed by infrastructure providers in the countries where those providers operate.
 
-Privacy requirements vary by jurisdiction. Users are responsible for using the host platform and Press Print in a manner that complies with applicable law and the host platform's rules.
+Privacy requirements vary by jurisdiction. Users are responsible for using the host platform and Matter in a manner that complies with applicable law and the host platform's rules.
 
 ## 15. Changes to this policy
 
-If Press Print later adds a standalone backend, user accounts, analytics, external APIs, MCP services, or other features that materially change its data practices, this Privacy Policy will be updated.
+If Matter later adds a standalone backend, user accounts, analytics, external APIs, MCP services, or other features that materially change its data practices, this Privacy Policy will be updated.
 
 Material changes will be reflected on the public website or project repository with a revised effective date.
 

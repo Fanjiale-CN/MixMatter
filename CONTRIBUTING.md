@@ -1,6 +1,6 @@
-# Contributing to Press-Print
+# Contributing to Matter
 
-Thanks for testing Press-Print.
+Thanks for testing Matter.
 
 The project is especially interested in evidence about where the reconstruction system succeeds, where it fails, and how different image models interpret the same source.
 
@@ -38,19 +38,19 @@ Pay particular attention to these recurring failure modes:
 
 ## v1.0 scope
 
-Press-Print v1.0.2 is source-text controlled: it adds zero new text by default and permits only exact wording explicitly supplied by the user.
+Matter v1.0.2 is source-text controlled: it adds zero new text by default and permits only exact wording explicitly supplied by the user.
 
 Please keep typography, inferred place names, captions, slogans, dates, and metadata outside the core v1.0 proposal unless the discussion is explicitly about a future typography extension.
 
 ## Core baseline and platform packaging
 
-Press-Print v1.0.0 is the frozen image-only core baseline. Changes must preserve the v1.0.2 rules against translation, bilingual duplication, approximate source-text reconstruction, and unrequested copy.
+Matter v1.0.0 is the frozen image-only core baseline. Changes must preserve the v1.0.2 rules against translation, bilingual duplication, approximate source-text reconstruction, and unrequested copy.
 
 The canonical behavioral sources are the root [`SKILL.md`](SKILL.md) and [`prompt/press-print-v1.md`](prompt/press-print-v1.md). The evaluation contract lives in [`eval/quality-rubric.md`](eval/quality-rubric.md).
 
 Platform-specific packaging may add manifests, metadata, assets, or synchronized copies of the Skill, but it should not silently change the v1.0 behavior.
 
-When adapting Press-Print to another platform:
+When adapting Matter to another platform:
 
 1. keep the root `SKILL.md` as the universal Agent Skills entry point
 2. keep platform-specific Skill copies synchronized with the canonical core

@@ -1,4 +1,4 @@
-name: Press Print Research CI
+name: Matter Research CI
 
 on:
   pull_request:
