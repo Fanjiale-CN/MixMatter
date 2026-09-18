@@ -5,7 +5,6 @@ on:
     paths:
       - "docs/**"
       - "submission/openai/**"
-      - "submission/openai/**"
       - "skills/press-print/**"
       - "skills/mixmatter/**"
       - "plugin.json"
@@ -56,12 +55,12 @@ jobs:
           from pathlib import Path
           root = json.loads(Path("plugin.json").read_text())
           compat = json.loads(Path(".codex-plugin/plugin.json").read_text())
-          assert root["name"] == "mixmatter"
+          assert root["name"] == "press-print"
           assert root["version"] == "2.1.0"
           iface = root["extensions"]["com.openai"]["interface"]
           assert iface["displayName"] == "Mixmatter"
           assert iface["websiteURL"].endswith("/mixmatter/")
           assert iface["composerIcon"] == "./assets/mixmatter-icon-light.svg"
-          assert compat["name"] == "mixmatter"
+          assert compat["name"] == "press-print"
           PY
           test ! -d apps/mixmatter-chatgpt
