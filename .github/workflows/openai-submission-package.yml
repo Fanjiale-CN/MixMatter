@@ -1,0 +1,101 @@
+name: Build OpenAI submission package
+
+on:
+  push:
+    branches:
+      - openai-submission-2.1.0
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Assemble portable plugin
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf dist
+          mkdir -p dist/press-print/.codex-plugin
+          mkdir -p dist/press-print/assets
+          mkdir -p dist/press-print/skills
+
+          cp plugin.json dist/press-print/plugin.json
+          cp .codex-plugin/plugin.json dist/press-print/.codex-plugin/plugin.json
+          cp -R skills/press-print dist/press-print/skills/
+          cp assets/matter-icon-light.svg dist/press-print/assets/matter-icon-light.svg
+          cp assets/matter-icon-dark.svg dist/press-print/assets/matter-icon-dark.svg
+          cp LICENSE dist/press-print/LICENSE
+
+      - name: Validate OpenAI package
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          root = Path("dist/press-print")
+          portable = json.loads((root / "plugin.json").read_text())
+          fallback = json.loads((root / ".codex-plugin/plugin.json").read_text())
+
+          assert portable["$schema"] == "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json"
+          assert portable["name"] == "press-print"
+          assert portable["version"] == "2.1.0"
+          assert fallback["name"] == "press-print"
+          assert fallback["version"] == "2.1.0"
+
+          skill = root / "skills/press-print/SKILL.md"
+          assert skill.is_file()
+          text = skill.read_text()
+          assert text.startswith("---\n")
+          assert "name: press-print" in text
+          assert "description:" in text
+
+          refs = sorted(set(re.findall(r"references/([A-Za-z0-9._-]+)", text)))
+          for ref in refs:
+              path = root / "skills/press-print/references" / ref
+              assert path.is_file(), f"Missing referenced skill file: {path}"
+
+          interface = portable["extensions"]["com.openai"]["interface"]
+          for key in ("composerIcon", "logo"):
+              rel = interface[key]
+              assert rel.startswith("./")
+              assert (root / rel[2:]).is_file(), f"Missing interface asset: {rel}"
+
+          assert not (root / "mcp.json").exists()
+          assert not (root / ".app.json").exists()
+
+          expected = {
+              "plugin.json",
+              ".codex-plugin/plugin.json",
+              "skills/press-print/SKILL.md",
+              "skills/press-print/references/hierarchy-stabilization.md",
+              "skills/press-print/references/press-print-v1.md",
+              "skills/press-print/references/press-print-v2-runtime.md",
+              "skills/press-print/references/quality-rubric.md",
+              "assets/matter-icon-light.svg",
+              "assets/matter-icon-dark.svg",
+              "LICENSE",
+          }
+          actual = {str(p.relative_to(root)) for p in root.rglob("*") if p.is_file()}
+          missing = expected - actual
+          assert not missing, f"Missing required files: {sorted(missing)}"
+
+          print("OpenAI package validation passed")
+          print("Files:", len(actual))
+          print("Referenced skill files:", refs)
+          PY
+
+      - name: Upload exact submission ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: matter-openai-submission-2.1.0
+          path: dist/
+          if-no-files-found: error
+          retention-days: 30

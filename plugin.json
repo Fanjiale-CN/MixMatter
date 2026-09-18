@@ -1,0 +1,50 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "press-print",
+  "version": "2.1.0",
+  "description": "Matter: AI art direction and source-aware visual reconstruction with editorial composition, selective halftone, tactile collage, revision continuity, and strict source-text control.",
+  "author": {
+    "name": "Fan Jiale / Galok",
+    "email": "galokview@outlook.com",
+    "url": "https://www.galok.me"
+  },
+  "homepage": "https://www.galok.me/press-print/",
+  "repository": "https://github.com/Fanjiale-CN/press-print",
+  "license": "MIT",
+  "keywords": [
+    "image-generation",
+    "art-direction",
+    "editorial-design",
+    "print-design",
+    "halftone",
+    "duotone",
+    "collage",
+    "visual-reconstruction"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Matter",
+        "shortDescription": "AI art direction for existing imagery",
+        "longDescription": "Matter reads a user-supplied image before reconstructing it, identifies what must survive, forms a source-specific art-direction thesis, and rebuilds the image through flattened editorial composition, source-derived cropping and scale shifts, selective photographic retention, visible halftone and duotone, graphic fields, controlled tactile collage, and modernist hierarchy. Clear requests execute directly; vague requests are handled with autonomous judgment unless real ambiguity requires clarification. Revisions preserve successful decisions rather than restarting from a random composition. Matter adds no new typography by default, never invents or translates source text, and permits only exact wording explicitly supplied by the user unless generated copy is explicitly authorized.",
+        "developerName": "Fan Jiale",
+        "category": "Creativity",
+        "capabilities": [
+          "Interactive",
+          "Write"
+        ],
+        "websiteURL": "https://www.galok.me/press-print/",
+        "privacyPolicyURL": "https://www.galok.me/press-print/privacy/",
+        "termsOfServiceURL": "https://www.galok.me/press-print/terms/",
+        "defaultPrompt": [
+          "Process this image with Matter.",
+          "Reconstruct this image with Matter. Preserve what makes the source identifiable and do not add new text.",
+          "Make this more graphic and fragmented with Matter, but preserve the subject and add no typography."
+        ],
+        "brandColor": "#126BFF",
+        "composerIcon": "./assets/matter-icon-light.svg",
+        "logo": "./assets/matter-icon-light.svg"
+      }
+    }
+  }
+}
